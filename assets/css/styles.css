@@ -260,7 +260,7 @@ button {
 }
 
 code {
-  color: #7FFFD6;
+  color: white;
 }
 
 h2 {
@@ -338,7 +338,7 @@ p {
   display: flex;
   align-items: center;
   background-color: #02042B;
-  background-image: url("hero.png");
+  /* background-image: url("hero.png"); */
   background-repeat: no-repeat;
   background-position: right;
   background-size: 90% auto;
