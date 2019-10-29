@@ -417,7 +417,7 @@ button.sponsor-us:hover {
 /******* stats *******/
 .stats-container {
   text-align: center;
-  background: #091822;
+  background: #05141D;
   height: 100vh;
 }
 
@@ -534,7 +534,6 @@ img.social-good {
 \* ------------------------------------------------------------ */
 .tracks-container {
   text-align: center;
-  background-color: #05141D;
 }
 
 img.tracks-img {
