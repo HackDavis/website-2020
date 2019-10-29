@@ -141,7 +141,7 @@ html {
 body {
   font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-style: normal;
-  background-color: #091822;
+  background-color: #05141D;
 }
 
 img {
@@ -159,7 +159,7 @@ ul {
 
 .section-title {
   font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 2.3em;
+  font-size: 3.5em;
   font-weight: 700;
   color: #fff;
   text-transform: capitalize;
@@ -168,6 +168,10 @@ ul {
   margin-bottom: 25px;
   padding-top: 35px;
   letter-spacing: -.025em;
+  width: 100%;
+  text-align: left;  
+  margin-left: 20vw;
+  /*background-color: red;*/
 }
 
 #mlh-trust-badge {
@@ -481,7 +485,7 @@ h2.stats {
 /******* about *******/
 .about-container {
   text-align: center;
-  background: #091822;  
+  background: #05141D;  
 }
 
 .about-content {
@@ -530,7 +534,7 @@ img.social-good {
 \* ------------------------------------------------------------ */
 .tracks-container {
   text-align: center;
-  background-color: #091822;
+  background-color: #05141D;
 }
 
 img.tracks-img {
@@ -567,7 +571,7 @@ p.tracks-des {
 \* ------------------------------------------------------------ */
 .schedule-container {
   text-align: center;
-  background-color: #091822; 
+  background-color: #05141D; 
 }
 
 .day {
@@ -579,11 +583,12 @@ p.tracks-des {
 }
 
 .day-title {
-  font-family: "Graphik",Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-weight: 300;
-  font-size: 1.2rem;
+  font-family: "Avenir Next" !important;
+  font-weight: 700;
+  font-size: 1.25rem;
   letter-spacing: .5px;
   text-transform: uppercase;
+  margin-bottom: 2.5rem;
 }
 
 .day-date {
@@ -655,7 +660,7 @@ p.tracks-des {
 /******* faq *******/
 .faq-container {
   text-align: center;
-  background-color: #091822;
+  background-color: #05141D;
 }
 
 .faq-content {
@@ -685,7 +690,7 @@ p.tracks-des {
   padding: 1rem 3rem 1rem 1rem;
   font-size: 1.15rem;
   font-weight: 500;
-  border-bottom: 1px solid #7FFFD6;
+  border-bottom: 1px solid #b0b0b0; /* The color under the FAQ*/
 }
 
 .accordion a:hover,
@@ -748,7 +753,7 @@ p.tracks-des {
   text-align: center;
   padding-top: 15vh;
   padding-bottom: 15vh;
-  background-color: #091822;
+  background-color: #05141D;
 }
 
 .sponsors-text {
@@ -1008,7 +1013,7 @@ progress::-webkit-progress-bar {
   }
 
   .section-title {
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
   }
 
   .schedule-content {
@@ -1098,4 +1103,11 @@ progress::-webkit-progress-bar {
     border-left: 1px solid #7FFFD6;
     border-right: 1px solid #7FFFD6;
   }
+}
+
+/** ETC */
+.simple-full-width-container {
+  width: 100%;  
+  display: flex;
+  justify-content: center;
 }
