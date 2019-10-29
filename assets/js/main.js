@@ -39,8 +39,6 @@ $(document).ready(function(){
       var percentage = (valueAttr/maxAttr) * 100;  
   });
 
-  console.log('Thanks for Applying!')
-
   var getMax = function(){
     return $(document).height() - $(window).height();
   }
