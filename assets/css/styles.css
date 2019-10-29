@@ -331,6 +331,13 @@ p {
   color: white;
 }
 
+.page-header.backdrop {
+  height: calc(12vh + 1em);
+  background: linear-gradient(0, transparent, rgba(0,0,0,0.9));
+  z-index: 99;
+  opacity: 0;
+}
+
 /* ------------------------------------------------------------ *\
 	landing
 \* ------------------------------------------------------------ */
@@ -338,7 +345,7 @@ p {
   display: flex;
   align-items: center;
   background-color: #02042B;
-  background-image: url("hero.png");
+  /* background-image: url("hero.png"); */
   background-repeat: no-repeat;
   background-position: right;
   background-size: 90% auto;
@@ -361,7 +368,7 @@ p {
 
 .landing-container .hackdavis {
   font-family: Avenir Next;
-  font-size: 4.3rem;
+  font-size: 4rem;
   line-height: 5.6rem;
   text-transform: uppercase;
   font-weight: 200;
@@ -393,10 +400,10 @@ line-height: 29px;
 .landing-container button {
   background: none;
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 15px;
   color:white;
   margin-right: 1em;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 0.45em 1em 0.45em 1em;
 }
 
