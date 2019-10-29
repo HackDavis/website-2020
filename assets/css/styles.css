@@ -478,6 +478,32 @@ h2.stats {
   text-align: center;
 }
 
+div.recap-video iframe {
+    border-radius: 20px;
+    width: 50vw;
+    height: 28vw;
+    max-width: 100%;
+    transform: scale(1);
+    transition: 0.2s ease-in-out all;
+}
+
+div.recap-video iframe:hover
+{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    
+div.recap-video iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 50vw;
+    max-width: 100%;
+    transform: scale(1);
+    transition: 0.2s ease-in-out all;
+}
+
+
 /******* about *******/
 .about-container {
   text-align: center;
