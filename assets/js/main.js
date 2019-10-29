@@ -91,6 +91,7 @@ $(document).ready(function(){
   }
 });
 
+// let anchors = $(".page-header nav li");
 // scroll to top 
 $(window).scroll(function() {
   if ($(this).scrollTop() >= 600) {
@@ -98,6 +99,16 @@ $(window).scroll(function() {
   } else {
     $('#scroll-to-top').fadeOut("fast");
   }
+
+  // if ( $(window).scrollTop() > anchor_offset ) 
+  //   $('#test').show();
+});
+
+var anchor_offset = $('a[href="#test"]').offset().top;
+
+$(window).on('scroll', function() {
+    if ( $(window).scrollTop() > anchor_offset ) 
+         $('#test').show();
 });
 
 $('#scroll-to-top').click(function() {

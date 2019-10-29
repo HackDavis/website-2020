@@ -73,21 +73,25 @@
     <link rel="icon" type="image/png" href="/assets/img/icons/favicon-128.png" sizes="128x128" />
   </head>
   <body>
-    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=blue" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-blue.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
-    <progress value="0" id="progressBar">
-      <div class="progress-container"></div>
-    </progress>
+    <header class="page-header">
+      <span class="logo">
+        <img src="assets/img/logo-small.png">
+      </span>
+
+      <nav>
+        <ul>
+          <li data-id="landing" class="selected"><a href="#landing">About</a></li>
+          <li><a data-id="schedule" href="#schedule">Schedule</a></li>
+          <li><a data-id="faq" href="#faq">FAQ</a></li>
+          <li><a data-id="sponsors" href="#sponsors">Sponsors</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <section class="landing-container justify-content-center" id="landing">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-7 landing-left">
-            <div class="landing-logo">
-              <div>
-                <img src="assets/img/logo-small.png" />
-              </div>
-            </div>
-
             <div>
               <div class="title">
                 <h1 id="hackdavis">HACK<b>DAVIS</b></h1>
@@ -228,7 +232,7 @@
       </div>
     </section>
 
-    <section class="about-container">
+    <section class="about-container" id="about">
       <div class="container about-content" data-entrance="fade">
         <div class="row">
           <div class="col-md-7 readable-text-col social-good-left">
@@ -299,7 +303,7 @@
       </div>
     </section>
 
-    <section class="schedule-container">
+    <section class="schedule-container" id="schedule">
       <p class="section-title" data-entrance="fade">
         <span class="underline schedule">2019 schedule</span>
       </p>
@@ -453,7 +457,7 @@
       </div>
     </section>
 
-    <section class="faq-container">
+    <section class="faq-container" id="faq">
     <div class="container">
       <p class="section-title" data-entrance="fade">
         <span class="underline faq">FAQ</span>
@@ -545,7 +549,7 @@
       </div>
     </section>
 
-    <section class="sponsors-container">
+    <section class="sponsors-container" id="sponsors">
       <div class="container">
 
         <p class="section-title" data-entrance="fade">
