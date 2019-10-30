@@ -239,22 +239,14 @@ a:link,
 }
 
 button {
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
-  align-items: center;
-  color: rgba(13, 52, 68, .7);
-  box-shadow: rgba(71, 53, 13, .2) 0px 3px 3px 0px !important;
-  display: -webkit-inline-box;
+  background: none;
+  border: 2px solid white;
+  border-radius: 3.05em;
+  color:white;
+  height: 2.65em;
+  padding: 0 1.1em 0 1.1em;
   font-size: 0.83rem;
   font-weight: 500;
-  letter-spacing: 0.4px;
-  justify-content: center;
-  border-width: initial;
-  border-style: none;
-  border-color: transparent;
-  border-radius: 4px;
-  padding: 10px 25px;
-  text-transform: capitalize;
   cursor: pointer;
   transition: .5s;
 }
