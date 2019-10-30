@@ -391,13 +391,8 @@ line-height: 29px;
   width: 100%;
 }
 .landing-container button {
-  background: none;
-  border: 1px solid white;
-  border-radius: 15px;
-  color:white;
-  margin-right: 1em;
+  margin-right: 1em; 
   font-size: 1rem;
-  padding: 0.45em 1em 0.45em 1em;
 }
 
 /******* stats *******/
