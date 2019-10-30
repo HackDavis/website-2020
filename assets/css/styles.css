@@ -670,7 +670,7 @@ p.tracks-des {
   padding: 1rem 3rem 1rem 1rem;
   font-size: 1.15rem;
   font-weight: 500;
-  border-bottom: 1px solid #7FFFD6;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .accordion a:hover,
