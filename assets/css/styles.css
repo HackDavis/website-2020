@@ -281,7 +281,7 @@ p {
 }
 
 .page-header .logo img {
-  height: 50px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -345,6 +345,7 @@ p {
   padding: 8em;
   color: white;
   height: 100vh;
+  width: 100vw;
 }
 
 @media screen and (max-width: 1359px) {
@@ -390,13 +391,8 @@ line-height: 29px;
   width: 100%;
 }
 .landing-container button {
-  background: none;
-  border: 1px solid white;
-  border-radius: 15px;
-  color:white;
-  margin-right: 1em;
+  margin-right: 1em; 
   font-size: 1rem;
-  padding: 0.45em 1em 0.45em 1em;
 }
 
 /******* stats *******/
@@ -670,7 +666,7 @@ p.tracks-des {
   padding: 1rem 3rem 1rem 1rem;
   font-size: 1.15rem;
   font-weight: 500;
-  border-bottom: 1px solid #7FFFD6;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .accordion a:hover,
