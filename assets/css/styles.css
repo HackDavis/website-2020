@@ -548,20 +548,43 @@ img.tracks-img {
   flex-grow: 0;
 }
 
+.tracks-image {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    flex-grow: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(180deg, #52b7ff, #1188dc);
+}
+
+.tracks-2-margin
+{
+    margin-top: 4rem;
+}
+
+.tracks-3-margin
+{
+    margin-top: 8rem;
+}
+
 h2.tracks-title {
+  font-family: 'Avenir Next';
   line-height: 1.25;
-  font-size: 1.7rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: bold;
   color: #fff;
   text-align: left;
 }
 
 p.tracks-des {
+    font-family: 'Avenir Next';
   display: block;
   margin-right: auto;
   margin-left: auto;
   text-align: -webkit-left;
   text-align: left;
+  padding: 1rem;
 }
 
 /* ------------------------------------------------------------ *\
