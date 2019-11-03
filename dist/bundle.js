@@ -138,8 +138,6 @@ $(document).ready(function(){
       var percentage = (valueAttr/maxAttr) * 100;  
   });
 
-  console.log('Apply at https://hackdavis.typeform.com/to/taNO32')
-
   var getMax = function(){
     return $(document).height() - $(window).height();
   }
@@ -190,12 +188,55 @@ $(document).ready(function(){
   }
 });
 
+// init anchor scrolling
+let navItems = $(".page-header nav li")
+let anchors = navItems.map(function(i, elem) {
+  let id = $(elem).data('id');
+  let $els = {
+    navItem: navItems.eq(i),
+    page: $(`#${id}`),
+  }
+  return {id, $els};
+});
+let triggerAnchorDist = $(window).height() / 5;
+
+// navbar fade in
+let $navBackdrop = $(".page-header.backdrop");
+
 // scroll to top 
 $(window).scroll(function() {
-  if ($(this).scrollTop() >= 600) {
+  let scrollTop = $(this).scrollTop();
+  if (scrollTop >= 600) {
     $('#scroll-to-top').fadeIn("fast");
   } else {
     $('#scroll-to-top').fadeOut("fast");
+  }
+
+  let opacity;
+  if (scrollTop >= 2*triggerAnchorDist) {
+    opacity = 1;
+  } else if (scrollTop >= triggerAnchorDist) {
+    opacity = (scrollTop-triggerAnchorDist)/triggerAnchorDist;
+  } else {
+    opacity = 0;
+  }
+  $navBackdrop.css("opacity", opacity);
+
+  console.log('scroll')
+
+  // Detect scrolled to anchor
+  for (let i=anchors.length-1; i>=0; i--) {
+    let anchor = anchors[i];
+    let $els = anchor.$els;
+    let anchorTop = $els.page.offset().top;
+
+    console.log(anchorTop)
+
+    if ( scrollTop + triggerAnchorDist > anchorTop) {
+      $(".page-header nav li.selected").removeClass("selected");
+      $els.navItem.addClass("selected");
+      break;
+    }
   }
 });
 

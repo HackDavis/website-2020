@@ -123,11 +123,15 @@ $(window).scroll(function() {
   }
   $navBackdrop.css("opacity", opacity);
 
+  console.log('scroll')
+
   // Detect scrolled to anchor
   for (let i=anchors.length-1; i>=0; i--) {
     let anchor = anchors[i];
     let $els = anchor.$els;
     let anchorTop = $els.page.offset().top;
+
+    console.log(anchorTop)
 
     if ( scrollTop + triggerAnchorDist > anchorTop) {
       $(".page-header nav li.selected").removeClass("selected");

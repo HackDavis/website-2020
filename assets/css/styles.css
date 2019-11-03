@@ -303,13 +303,15 @@ p {
   box-sizing: border-box;
   padding: 0.75em 1.25em 0.75em 1.25em;
   height: 100%;
+  background-image: linear-gradient(#E64D84,#E64D84);
+  background-size: 100% 0px;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: 0.2s ease-in-out all;
 }
 
 .page-header nav li.selected {
-  background-image: linear-gradient(#E64D84,#E64D84);
   background-size: 100% 5px;
-  background-repeat: no-repeat;
-  background-position: top;
 }
 
 .page-header a {
@@ -710,11 +712,7 @@ p.tracks-des {
   padding: 1rem 3rem 1rem 1rem;
   font-size: 1.15rem;
   font-weight: 500;
-<<<<<<< HEAD
-  border-bottom: 1px solid #b0b0b0; /* The color under the FAQ*/
-=======
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
->>>>>>> master
 }
 
 .accordion a:hover,
