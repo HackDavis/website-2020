@@ -417,15 +417,14 @@ line-height: 29px;
 .stats-container {
   text-align: center;
   background: #05141D;
-  height: 100vh;
 }
 
 .stats-content {
   width: fit-content;
   text-align: left;
-  font-size: 2vw;
-  margin-top: 10vw;
-  margin-bottom: 10vw;
+  font-size: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   margin-left: auto;
   margin-right: auto;
 }
