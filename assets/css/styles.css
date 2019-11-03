@@ -384,8 +384,33 @@ line-height: 29px;
   width: 100%;
 }
 .landing-container button {
+  position: relative;
   margin-right: 1em; 
   font-size: 1rem;
+  background-image: transparent;
+  z-index: 1;
+}
+
+.landing-container button::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to right,
+    #C72A95,
+    #7000A4
+  );
+  z-index: -1;
+  transition: 0.2s ease-in-out all;
+  opacity: 0;
+}
+
+.landing-container button:hover::before {
+    opacity: 1;
+  border-radius: 3.05em;
 }
 
 /******* stats *******/
