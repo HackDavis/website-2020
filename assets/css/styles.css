@@ -220,6 +220,8 @@ button {
   transition: .5s;
 }
 
+button:focus {outline:0;}
+
 code {
   color: white;
 }
@@ -919,6 +921,14 @@ div#copyright {
 
 #scroll-to-top:hover {
   background: rgba(0, 0, 0, .9);
+}
+
+div.apps-open-soon
+{
+    margin-top: 1.5rem;
+    font-family: 'Avenir Next';
+    font-style: italic;
+    display: block;
 }
 
 /* ------------------------------------------------------------ *\
