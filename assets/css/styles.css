@@ -48,10 +48,17 @@
 }
 
 @font-face {
-  font-family: "Graphik";
-  font-weight: 500;
-  font-style: medium;
-  src: url("../fonts/Graphik-500-Medium.otf");
+    font-family: "Graphik";
+    font-weight: 500;
+    font-style: medium;
+    src: url("../fonts/Graphik-500-Medium.otf");
+  }
+
+@font-face {
+font-family: "Graphik";
+font-weight: 600;
+font-style: medium;
+src: url("../fonts/Graphik-600-Semibold.otf");
 }
 
 @font-face {
@@ -88,6 +95,12 @@
     src: url("../fonts/AvenirNextLTPro-Regular.otf");
 }
   
+@font-face {
+    font-family: "Avenir Next";
+    font-weight: 500;
+    src: url("../fonts/AvenirNextLTPro-Demi.otf");
+}
+    
 @font-face {
     font-family: "Avenir Next";
     font-weight: bold;
@@ -151,7 +164,7 @@ html {
 }
 
 body {
-  font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Avenir Next', Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-style: normal;
   background-color: #05141D;
 }
@@ -172,7 +185,7 @@ ul {
 .section-title {
   font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 3.5em;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   text-transform: capitalize;
   margin: 0 auto;
@@ -208,11 +221,11 @@ a:link,
 }
 
 button {
+border: none;
   background: none;
-  border: 2px solid white;
   border-radius: 3.05em;
   color:white;
-  height: 2.65em;
+  height: 2.6em;
   padding: 0 1.1em 0 1.1em;
   font-size: 0.83rem;
   font-weight: 500;
@@ -299,28 +312,23 @@ p {
 }
 
 .page-header nav li {
+    font-family: 'Avenir Next';
+    font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: 0.75em 1.25em 0.75em 1.25em;
+  padding: 0.75em 2em 0.75em 2em;
   height: 100%;
   background-image: linear-gradient(#E64D84,#E64D84);
-  background-size: 100% 0px;
+  background-size: 50% 0px;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: 50% 70%;
   transition: 0.2s ease-in-out all;
 }
 
 .page-header nav li.selected {
-  /*background-size: 100% 5px;*/
-  text-shadow: 
-  0px 0px 2px rgba(255, 255, 255, 0.7),
-  0px 0px 4px rgba(255, 255, 255, 0.7),
-  0px 0px 8px rgba(255, 255, 255, 0.7),
-  0px 0px 16px rgba(255, 255, 255, 0.6),
-  0px 0px 32px rgba(255, 255, 255, 0.5)
-  ;
+  background-size: 70% 4px;
 }
 
 .page-header a {
@@ -384,12 +392,13 @@ line-height: 29px;
 
 .landing-container .when-where {
   font-family: 'Avenir Next';
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 27px;
   margin: 2em 0 2em 0;
 }
 
 .landing-container .buttons {
+    margin-top: 1rem;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -397,31 +406,25 @@ line-height: 29px;
 .landing-container button {
   position: relative;
   margin-right: 1em; 
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   font-size: 1rem;
-  background-image: transparent;
+  line-height: 1rem;
   z-index: 1;
-}
-
-.landing-container button::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   background-image: linear-gradient(
     to right,
-    #C72A95,
-    #7000A4
+    #CA3194,
+    #EC9B78
   );
-  z-index: -1;
-  transition: 0.2s ease-in-out all;
-  opacity: 0;
 }
 
-.landing-container button:hover::before {
+.landing-container button:hover {
     opacity: 1;
   border-radius: 3.05em;
+  box-shadow: 0 0 4px rgba(217, 99, 134, 0.712), 
+  0 0 8px rgba(217, 99, 134, 0.712), 
+  0 0 14px rgba(217, 99, 134, 0.712)
+  ;
 }
 
 /******* stats *******/
@@ -433,7 +436,7 @@ line-height: 29px;
 .stats-content {
   width: fit-content;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
   margin-left: auto;

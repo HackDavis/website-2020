@@ -1,3 +1,5 @@
+// To compile this and use, run `npx webpack`
+
 import './scroll-entrance.min.js'
 // set typed
 var typed = new Typed('#typed', {
