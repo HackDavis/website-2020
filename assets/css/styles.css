@@ -166,6 +166,7 @@ html {
 body {
   font-family: 'Avenir Next', Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-style: normal;
+  font-size: 0.9rem;
   background-color: #05141D;
 }
 
@@ -221,7 +222,7 @@ a:link,
 }
 
 button {
-border: none;
+border: 1.5px solid white;
   background: none;
   border-radius: 3.05em;
   color:white;
@@ -236,7 +237,7 @@ border: none;
 button:focus {outline:0;}
 
 code {
-  color: white;
+  color: #F0918E;
 }
 
 h2 {
@@ -311,6 +312,10 @@ p {
   height: 100%;
 }
 
+.typed-cursor {
+    color: #F0918E;
+}
+
 .page-header nav li {
     font-family: 'Avenir Next';
     font-weight: 500;
@@ -320,15 +325,15 @@ p {
   box-sizing: border-box;
   padding: 0.75em 2em 0.75em 2em;
   height: 100%;
-  background-image: linear-gradient(#E64D84,#E64D84);
-  background-size: 50% 0px;
+  background-image: linear-gradient(#F0918E,#F0918E);
+  background-size: 0% 3.5px;
   background-repeat: no-repeat;
-  background-position: 50% 70%;
+  background-position: 50% 80%;
   transition: 0.2s ease-in-out all;
 }
 
 .page-header nav li.selected {
-  background-size: 70% 4px;
+  background-size: 50% 3.5px;
 }
 
 .page-header a {
@@ -349,21 +354,44 @@ p {
   display: flex;
   align-items: center;
   background-color: #02042B;
-  /* background-image: url("hero.png"); */
+  background: -webkit-linear-gradient(-45deg, #02002C, #0A0843);
+  background: linear-gradient(-45deg, #02002C, #0A0843);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+  animation: Gradient 20s ease infinite;
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: 90% auto;
-  box-shadow: 0 0 8px 8px #02042B inset;
+  background-position: 0% 50%;
   padding: 8em;
   color: white;
   height: 100vh;
   width: 100vw;
 }
 
+.landing-illustration
+{
+    position: absolute;
+    bottom: 2vw;
+    right: -50vw;
+}
+
+.landing-illustration .imgcontainer
+{
+    position: relative;
+    width: 140vw;
+    height: 55vw;
+}
+
+.landing-illustration .imgcontainer img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+}
+
 @media screen and (max-width: 1359px) {
-  .landing-container {
-    background-size: auto 100%;
-  }
 }
 
 .landing-container .content {
@@ -392,7 +420,7 @@ line-height: 29px;
 
 .landing-container .when-where {
   font-family: 'Avenir Next';
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 27px;
   margin: 2em 0 2em 0;
 }
@@ -408,23 +436,21 @@ line-height: 29px;
   margin-right: 1em; 
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1rem;
   z-index: 1;
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
     to right,
     #CA3194,
     #EC9B78
-  );
+  );*/
 }
 
 .landing-container button:hover {
     opacity: 1;
   border-radius: 3.05em;
-  box-shadow: 0 0 4px rgba(217, 99, 134, 0.712), 
-  0 0 8px rgba(217, 99, 134, 0.712), 
-  0 0 14px rgba(217, 99, 134, 0.712)
-  ;
+    background: white;
+    color: #050436;
 }
 
 /******* stats *******/
@@ -854,7 +880,7 @@ img.bronze-sponsor {
 \* ------------------------------------------------------------ */
 .contact-container {
   text-align: center;
-  background: #011118;
+  background: #05141D;
   padding-top: 170px;
 }
 
@@ -939,13 +965,18 @@ div.apps-open-soon
     font-family: 'Avenir Next';
     font-style: italic;
     display: block;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* ------------------------------------------------------------ *\
 	breakpoints
 \* ------------------------------------------------------------ */
 @media screen and (max-width: 414px) {
-  .tower {
+
+    nav{
+        display: none;
+    }
+  div.landing-illustration {
     display: none;
   }
 
@@ -984,6 +1015,10 @@ div.apps-open-soon
      padding-right: 0 !important;
    }
 
+   nav {
+       display: none;
+   }
+
    .landing-left {
       flex-direction: column;
       display: flex;
@@ -998,6 +1033,9 @@ div.apps-open-soon
 }
 
 @media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
   .title {
     flex-direction: column;
     align-items: center;
@@ -1105,4 +1143,27 @@ div.apps-open-soon
   width: 100%;  
   display: flex;
   justify-content: center;
+}
+
+.scene {
+	position: absolute;
+	transform: translateY(var(--translateY));
+    will-change: transformY;
+}
+
+.updown
+{
+    animation: updown 5s ease-in-out infinite;
+}
+
+@keyframes updown {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(30px);
+	}
+	100% {
+		transform: translateY(0);
+	}
 }

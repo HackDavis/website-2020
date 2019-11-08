@@ -37,7 +37,7 @@
         if (navigator.userAgent.indexOf('Safari') != -1 
             && navigator.userAgent.indexOf('Chrome') == -1) {
             let illustration = document.getElementById("landing-illustration");
-            illustration.setAttribute("src", "assets/img/v6-tower.png")
+            //illustration.setAttribute("src", "assets/img/v6-tower.png")
         }
       });
     </script>
@@ -93,6 +93,16 @@
     <div class="page-header backdrop"></div>
 
     <section class="landing-container justify-content-center" id="landing">
+        <div class='landing-illustration'>
+            <div class='imgcontainer'>
+                <img class='scene' data-modifier="30" src='./assets/img/landing/5-01.svg'></img>
+                <img class='scene' data-modifier="25" src='./assets/img/landing/1-01.svg'></img>
+                <img class='scene' data-modifier="20" src='./assets/img/landing/2-01.svg'></img>
+                <img class='scene' data-modifier="15" src='./assets/img/landing/3-01.svg'></img>
+                <img class='scene updown' data-modifier="0" src='./assets/img/landing/4-01.svg'></img>
+                <img class='scene' data-modifier="5" src='./assets/img/landing/logo-01.svg'></img>
+            </div>
+        </div>
       <div class="container-fluid">
         <div class="content">
           <span class="hackdavis">Hack<b>Davis</b></span>
@@ -143,7 +153,7 @@
             </p>
           </div>
           <div class="col-md-5 social-good-right">
-            <img src="assets/img/v3-social-good-small.png" alt="social-good" class="social-good">
+            <img src="assets/img/landing/6.png" alt="social-good" class="social-good">
           </div>
         </div>
       </div>
@@ -654,7 +664,6 @@
     </section>
 
     <section class="contact-container">
-      <img src="assets/img/logo-small.png" alt="logo" class="logo-picture">
       <div id="footer-content">
         <a href="mailto:team@hackdavis.io">
           <i class="fa fa-envelope fa-sm" aria-hidden="true"></i>
@@ -663,7 +672,7 @@
           <i class="fab fa-medium fa-sm" aria-hidden="true"></i>
         </a>
         <a href="https://www.facebook.com/HackDavis" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-facebook fa-sm" aria-hidden="true"></i>
+          <i class="fab fa-facebook-f fa-sm" aria-hidden="true"></i>
         </a>
         <a href="https://twitter.com/hack_davis" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-twitter fa-sm" aria-hidden="true"></i>
@@ -682,6 +691,7 @@
     </a>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="assets/js/basicScroll.min.js"></script>
     <script src="dist/bundle.js"></script>
   </body>
 </html>
