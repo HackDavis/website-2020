@@ -1182,6 +1182,35 @@ div.apps-open-soon
     z-index: 30;
 }
 
+.smallbutton1
+{
+    animation: smallbutton 4s ease-in-out infinite;
+}
+
+.smallbutton2
+{
+    animation: smallbutton 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.smallbutton3
+{
+    animation: smallbutton 4s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+@keyframes smallbutton {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	50% {
+		transform: translate(0px, 20px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
 @keyframes busanim {
 	0% {
 		transform: translate(10px, -4px);
