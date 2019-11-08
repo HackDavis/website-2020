@@ -865,6 +865,9 @@ img.diamond-sponsor {
   max-height: 150px;
 }
 
+img.platinum-sponsor {
+  max-height: 115px;
+}
 img.gold-sponsor {
   max-height: 90px;
 }
@@ -1098,7 +1101,11 @@ div.apps-open-soon
   img.diamond-sponsor {
     max-height: 120px;
   }
-  
+ 
+  img.platinum-sponsor {
+    max-height: 90px;
+  }
+
   img.gold-sponsor {
     max-height: 70px;
   }
