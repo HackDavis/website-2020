@@ -164,3 +164,9 @@ document.querySelectorAll('.scene').forEach((elem) => {
 	}).start()
 		
 })
+
+particlesJS.load('particles-js', 'assets/js/particles.json', function() {
+  });
+
+  particlesJS.load('particles-js2', 'assets/js/particles2.json', function() {
+    });

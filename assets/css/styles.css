@@ -1167,3 +1167,16 @@ div.apps-open-soon
 		transform: translateY(0);
 	}
 }
+
+div#particles-js
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+div#particles-js2
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
