@@ -231,7 +231,7 @@ border: 1.5px solid white;
   font-size: 0.83rem;
   font-weight: 500;
   cursor: pointer;
-  transition: .5s;
+  transition: .2s;
 }
 
 button:focus {outline:0;}
