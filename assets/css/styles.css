@@ -299,6 +299,7 @@ p {
 .page-header nav {
   flex: 1;
   height: 100%;
+  margin-right: 100px;
   color: white;
 }
 
@@ -316,6 +317,11 @@ p {
     color: #F0918E;
 }
 
+#mlh-trust-badge:hover
+{
+    transform: translateY(-5px);
+}
+
 .page-header nav li {
     font-family: 'Avenir Next';
     font-weight: 500;
@@ -323,7 +329,7 @@ p {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: 0.75em 2em 0.75em 2em;
+  padding: 0.75em 1.5em 0.75em 1.5em;
   height: 100%;
   background-image: linear-gradient(#F0918E,#F0918E);
   background-size: 0% 3.5px;
