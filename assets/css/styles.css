@@ -48,10 +48,17 @@
 }
 
 @font-face {
-  font-family: "Graphik";
-  font-weight: 500;
-  font-style: medium;
-  src: url("../fonts/Graphik-500-Medium.otf");
+    font-family: "Graphik";
+    font-weight: 500;
+    font-style: medium;
+    src: url("../fonts/Graphik-500-Medium.otf");
+  }
+
+@font-face {
+font-family: "Graphik";
+font-weight: 600;
+font-style: medium;
+src: url("../fonts/Graphik-600-Semibold.otf");
 }
 
 @font-face {
@@ -88,6 +95,12 @@
     src: url("../fonts/AvenirNextLTPro-Regular.otf");
 }
   
+@font-face {
+    font-family: "Avenir Next";
+    font-weight: 500;
+    src: url("../fonts/AvenirNextLTPro-Demi.otf");
+}
+    
 @font-face {
     font-family: "Avenir Next";
     font-weight: bold;
@@ -151,8 +164,9 @@ html {
 }
 
 body {
-  font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Avenir Next', Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-style: normal;
+  font-size: 0.9rem;
   background-color: #05141D;
 }
 
@@ -172,7 +186,7 @@ ul {
 .section-title {
   font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 3.5em;
-  font-weight: 700;
+  font-weight: 600;
   color: #fff;
   text-transform: capitalize;
   margin: 0 auto;
@@ -208,11 +222,11 @@ a:link,
 }
 
 button {
+border: 1.5px solid white;
   background: none;
-  border: 2px solid white;
   border-radius: 3.05em;
   color:white;
-  height: 2.65em;
+  height: 2.6em;
   padding: 0 1.1em 0 1.1em;
   font-size: 0.83rem;
   font-weight: 500;
@@ -223,7 +237,7 @@ button {
 button:focus {outline:0;}
 
 code {
-  color: white;
+  color: #F0918E;
 }
 
 h2 {
@@ -285,6 +299,7 @@ p {
 .page-header nav {
   flex: 1;
   height: 100%;
+  margin-right: 100px;
   color: white;
 }
 
@@ -298,22 +313,33 @@ p {
   height: 100%;
 }
 
+.typed-cursor {
+    color: #F0918E;
+}
+
+#mlh-trust-badge:hover
+{
+    transform: translateY(-5px);
+}
+
 .page-header nav li {
+    font-family: 'Avenir Next';
+    font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  padding: 0.75em 1.25em 0.75em 1.25em;
+  padding: 0.75em 1.5em 0.75em 1.5em;
   height: 100%;
-  background-image: linear-gradient(#E64D84,#E64D84);
-  background-size: 100% 0px;
+  background-image: linear-gradient(#F0918E,#F0918E);
+  background-size: 0% 3.5px;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: 50% 80%;
   transition: 0.2s ease-in-out all;
 }
 
 .page-header nav li.selected {
-  background-size: 100% 5px;
+  background-size: 50% 3.5px;
 }
 
 .page-header a {
@@ -334,21 +360,44 @@ p {
   display: flex;
   align-items: center;
   background-color: #02042B;
-  /* background-image: url("hero.png"); */
+  background: -webkit-linear-gradient(-45deg, #02002C, #0A0843);
+  background: linear-gradient(-45deg, #02002C, #0A0843);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+  animation: Gradient 20s ease infinite;
   background-repeat: no-repeat;
-  background-position: right;
-  background-size: 90% auto;
-  box-shadow: 0 0 8px 8px #02042B inset;
+  background-position: 0% 50%;
   padding: 8em;
   color: white;
   height: 100vh;
   width: 100vw;
 }
 
+.landing-illustration
+{
+    position: absolute;
+    bottom: 2vw;
+    right: -50vw;
+}
+
+.landing-illustration .imgcontainer
+{
+    position: relative;
+    width: 140vw;
+    height: 55vw;
+}
+
+.landing-illustration .imgcontainer img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+}
+
 @media screen and (max-width: 1359px) {
-  .landing-container {
-    background-size: auto 100%;
-  }
 }
 
 .landing-container .content {
@@ -377,12 +426,13 @@ line-height: 29px;
 
 .landing-container .when-where {
   font-family: 'Avenir Next';
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   line-height: 27px;
   margin: 2em 0 2em 0;
 }
 
 .landing-container .buttons {
+    margin-top: 1rem;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -390,31 +440,23 @@ line-height: 29px;
 .landing-container button {
   position: relative;
   margin-right: 1em; 
-  font-size: 1rem;
-  background-image: transparent;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
   z-index: 1;
-}
-
-.landing-container button::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
     to right,
-    #C72A95,
-    #7000A4
-  );
-  z-index: -1;
-  transition: 0.2s ease-in-out all;
-  opacity: 0;
+    #CA3194,
+    #EC9B78
+  );*/
 }
 
-.landing-container button:hover::before {
+.landing-container button:hover {
     opacity: 1;
   border-radius: 3.05em;
+    background: white;
+    color: #050436;
 }
 
 /******* stats *******/
@@ -426,7 +468,7 @@ line-height: 29px;
 .stats-content {
   width: fit-content;
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
   margin-left: auto;
@@ -847,7 +889,7 @@ img.bronze-sponsor {
 \* ------------------------------------------------------------ */
 .contact-container {
   text-align: center;
-  background: #011118;
+  background: #05141D;
   padding-top: 170px;
 }
 
@@ -932,13 +974,18 @@ div.apps-open-soon
     font-family: 'Avenir Next';
     font-style: italic;
     display: block;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 /* ------------------------------------------------------------ *\
 	breakpoints
 \* ------------------------------------------------------------ */
 @media screen and (max-width: 414px) {
-  .tower {
+
+    nav{
+        display: none;
+    }
+  div.landing-illustration {
     display: none;
   }
 
@@ -977,6 +1024,10 @@ div.apps-open-soon
      padding-right: 0 !important;
    }
 
+   nav {
+       display: none;
+   }
+
    .landing-left {
       flex-direction: column;
       display: flex;
@@ -991,6 +1042,12 @@ div.apps-open-soon
 }
 
 @media screen and (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    .landing-illustration {
+        display: none;
+    }
   .title {
     flex-direction: column;
     align-items: center;
@@ -1102,4 +1159,125 @@ div.apps-open-soon
   width: 100%;  
   display: flex;
   justify-content: center;
+}
+
+.scene {
+	position: absolute;
+	transform: translateY(var(--translateY));
+    will-change: transform;
+}
+
+.updown
+{
+    animation: updown 5s ease-in-out infinite;
+}
+
+.rightbutton
+{
+    animation: rightbutton 3s ease-in-out infinite;
+}
+
+.leftbutton
+{
+    animation: leftbutton 3s ease-in-out infinite;
+}
+
+.busanim
+{
+    animation: busanim 6s ease-in-out infinite;
+}
+
+.container-fluid
+{
+    z-index: 30;
+}
+
+.smallbutton1
+{
+    animation: smallbutton 4s ease-in-out infinite;
+}
+
+.smallbutton2
+{
+    animation: smallbutton 4s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.smallbutton3
+{
+    animation: smallbutton 4s ease-in-out infinite;
+    animation-delay: 2s;
+}
+
+@keyframes smallbutton {
+	0% {
+		transform: translate(0px, 0px);
+	}
+	50% {
+		transform: translate(0px, 20px);
+	}
+	100% {
+		transform: translate(0px, 0px);
+	}
+}
+
+@keyframes busanim {
+	0% {
+		transform: translate(10px, -4px);
+	}
+	50% {
+		transform: translate(-10px, 4px);
+	}
+	100% {
+		transform: translate(10px, -4px);
+	}
+}
+
+@keyframes leftbutton {
+	0% {
+		transform: translate(-6px, 6px);
+	}
+	50% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-6px, 6px);
+	}
+}
+
+@keyframes rightbutton {
+	0% {
+		transform: translate(6px, -6px);
+	}
+	50% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(6px, -6px);
+	}
+}
+
+@keyframes updown {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(30px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+div#particles-js
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+div#particles-js2
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
 }

@@ -97,6 +97,8 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scroll_entrance_min_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scroll-entrance.min.js */ "./assets/js/scroll-entrance.min.js");
 /* harmony import */ var _scroll_entrance_min_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scroll_entrance_min_js__WEBPACK_IMPORTED_MODULE_0__);
+// To compile this and use, run `npx webpack`
+
 
 // set typed
 var typed = new Typed('#typed', {
@@ -222,15 +224,11 @@ $(window).scroll(function() {
   }
   $navBackdrop.css("opacity", opacity);
 
-  console.log('scroll')
-
   // Detect scrolled to anchor
   for (let i=anchors.length-1; i>=0; i--) {
     let anchor = anchors[i];
     let $els = anchor.$els;
     let anchorTop = $els.page.offset().top;
-
-    console.log(anchorTop)
 
     if ( scrollTop + triggerAnchorDist > anchorTop) {
       $(".page-header nav li.selected").removeClass("selected");
@@ -246,6 +244,31 @@ $('#scroll-to-top').click(function() {
   }, 500);
 });
 
+
+document.querySelectorAll('.scene').forEach((elem) => {
+	
+	const modifier = elem.getAttribute('data-modifier')
+	
+	basicScroll.create({
+		elem: elem,
+		from: 0,
+		to: '100%',
+		direct: true,
+		props: {
+			'--translateY': {
+				from: '0',
+				to: `${ 1 * modifier }px`
+            }
+		}
+	}).start()
+		
+})
+
+particlesJS.load('particles-js', 'assets/js/particles.json', function() {
+  });
+
+  particlesJS.load('particles-js2', 'assets/js/particles2.json', function() {
+    });
 
 /***/ }),
 

@@ -37,7 +37,7 @@
         if (navigator.userAgent.indexOf('Safari') != -1 
             && navigator.userAgent.indexOf('Chrome') == -1) {
             let illustration = document.getElementById("landing-illustration");
-            illustration.setAttribute("src", "assets/img/v6-tower.png")
+            //illustration.setAttribute("src", "assets/img/v6-tower.png")
         }
       });
     </script>
@@ -58,21 +58,9 @@
     <script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
 
-    <!--<link rel="apple-touch-icon" sizes="32x32" href="./assets/img/icons/favicon-32x32.png"  />
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/img/icons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/img/icons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/img/icons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/img/icons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/img/icons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/img/icons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/img/icons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/img/icons/apple-touch-icon-152x152.png" />-->
     <link rel="icon" type="image/png" href="./assets/img/icons/favicon-196x196.png" sizes="196x196" />
-    <!--<link rel="icon" type="image/png" href="./assets/img/icons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="./assets/img/icons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="./assets/img/icons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="./assets/img/icons/favicon-128.png" sizes="128x128" />-->
   </head>
+  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2020/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=blue" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-blue.svg" alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a>
   <body>
 
 
@@ -93,6 +81,22 @@
     <div class="page-header backdrop"></div>
 
     <section class="landing-container justify-content-center" id="landing">
+        <div id="particles-js"></div>
+        <div id="particles-js2"></div>
+        <div class='landing-illustration'>
+            <div class='imgcontainer'>
+                <img src='./assets/img/landing/building.svg'></img>
+                <img class='leftbutton' src='./assets/img/landing/left_button-01.svg'></img>
+                <img class='rightbutton' src='./assets/img/landing/right_button-01.svg'></img>
+                <img class='smallbutton1' src='./assets/img/landing/button1-01.svg'></img>
+                <img class='smallbutton2' src='./assets/img/landing/button2-01.svg'></img>
+                <img class='smallbutton3' src='./assets/img/landing/button3-01.svg'></img>
+                <img src='./assets/img/landing/street-01.svg'></img>
+                <img class='busanim' src='./assets/img/landing/bus-01.svg'></img>
+                <img class='updown' src='./assets/img/landing/laptopconnected.svg'></img>
+                <img src='./assets/img/landing/logo-01.svg'></img>
+            </div>
+        </div>
       <div class="container-fluid">
         <div class="content">
           <span class="hackdavis">Hack<b>Davis</b></span>
@@ -104,7 +108,7 @@
             ARC Pavilion at UC Davis
           </span>
           <div class="buttons">
-            <button>Get Notified</button>
+            <button onclick="window.open('https://forms.gle/NAfNvyd41CzyrpYk8','_blank')">Get Notified</button>
             <button onclick="location.href='mailto:team@hackdavis.io'">Sponsor Us</button>
 
 
@@ -139,17 +143,17 @@
             <p class="about-text">
               On January 18-19, over 700 students, hackers, and creators came together for 24 hours of hacking. 
               For the 4th year in a row, we brought the most talented students in California to address the world’s most pressing issues. 
-              Participants were able build projects that solves problems in one of these three areas.
+              Participants were able build projects that solves problems many of these areas.
             </p>
           </div>
           <div class="col-md-5 social-good-right">
-            <img src="assets/img/v3-social-good-small.png" alt="social-good" class="social-good">
+            <img src="assets/img/landing/socialgood.png" alt="social-good" class="social-good">
           </div>
         </div>
       </div>
     </section>
 
-    <section class="tracks-container">
+    <!--<section class="tracks-container">
       <div class="container">
         <div class="row">
           <div class="col-md-4 readable-text-col" data-entrance="fade">
@@ -187,7 +191,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
             
     <p class="section-title" data-entrance="fade" id = 'schedule'>
@@ -665,7 +669,6 @@
     </section>
 
     <section class="contact-container">
-      <img src="assets/img/logo-small.png" alt="logo" class="logo-picture">
       <div id="footer-content">
         <a href="mailto:team@hackdavis.io">
           <i class="fa fa-envelope fa-sm" aria-hidden="true"></i>
@@ -674,7 +677,7 @@
           <i class="fab fa-medium fa-sm" aria-hidden="true"></i>
         </a>
         <a href="https://www.facebook.com/HackDavis" target="_blank" rel="noopener noreferrer">
-          <i class="fab fa-facebook fa-sm" aria-hidden="true"></i>
+          <i class="fab fa-facebook-f fa-sm" aria-hidden="true"></i>
         </a>
         <a href="https://twitter.com/hack_davis" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-twitter fa-sm" aria-hidden="true"></i>
@@ -693,6 +696,8 @@
     </a>
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="assets/js/basicScroll.min.js"></script>
+    <script src="assets/js/particles.min.js"></script>
     <script src="dist/bundle.js"></script>
   </body>
 </html>
