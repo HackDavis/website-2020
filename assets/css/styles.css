@@ -1154,12 +1154,68 @@ div.apps-open-soon
 .scene {
 	position: absolute;
 	transform: translateY(var(--translateY));
-    will-change: transformY;
+    will-change: transform;
 }
 
 .updown
 {
     animation: updown 5s ease-in-out infinite;
+}
+
+.rightbutton
+{
+    animation: rightbutton 3s ease-in-out infinite;
+}
+
+.leftbutton
+{
+    animation: leftbutton 3s ease-in-out infinite;
+}
+
+.busanim
+{
+    animation: busanim 6s ease-in-out infinite;
+}
+
+.container-fluid
+{
+    z-index: 30;
+}
+
+@keyframes busanim {
+	0% {
+		transform: translate(10px, -4px);
+	}
+	50% {
+		transform: translate(-10px, 4px);
+	}
+	100% {
+		transform: translate(10px, -4px);
+	}
+}
+
+@keyframes leftbutton {
+	0% {
+		transform: translate(-6px, 6px);
+	}
+	50% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-6px, 6px);
+	}
+}
+
+@keyframes rightbutton {
+	0% {
+		transform: translate(6px, -6px);
+	}
+	50% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(6px, -6px);
+	}
 }
 
 @keyframes updown {

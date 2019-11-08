@@ -153,12 +153,12 @@ document.querySelectorAll('.scene').forEach((elem) => {
 	basicScroll.create({
 		elem: elem,
 		from: 0,
-		to: '100%',
+		to: 519,
 		direct: true,
 		props: {
 			'--translateY': {
 				from: '0',
-				to: `${ 1 * modifier }px`
+				to: `${ 10 * modifier }px`
             }
 		}
 	}).start()
