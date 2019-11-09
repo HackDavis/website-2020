@@ -26,7 +26,7 @@
 	font-face
 \* ------------------------------------------------------------ */
 
-@font-face {
+/*@font-face {
   font-family: "Graphik";
   font-weight: 100;
   font-style: normal;
@@ -73,7 +73,7 @@ src: url("../fonts/Graphik-600-Semibold.otf");
   font-weight: 900;
   font-style: bold;
   src: url("../fonts/Graphik-900-Super.otf");
-}
+}*/
 
 @font-face {
   font-family: "Futura";
@@ -164,7 +164,7 @@ html {
 }
 
 body {
-  font-family: 'Avenir Next', Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Avenir Next',Helvetica Neue,Helvetica,Arial,sans-serif;
   font-style: normal;
   font-size: 0.9rem;
   background-color: #05141D;
@@ -184,7 +184,7 @@ ul {
 }
 
 .section-title {
-  font-family: Graphik,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: 'Avenir Next',Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 3.5em;
   font-weight: 600;
   color: #fff;
@@ -569,7 +569,7 @@ h1.social-good-text {
 }
 
 p.about-text {
-  font-family: "Graphik",Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Avenir Next",Helvetica Neue,Helvetica,Arial,sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: subpixel-antialiased;
   text-align: -webkit-left;
