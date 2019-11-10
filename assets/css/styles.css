@@ -398,6 +398,15 @@ p {
     }
 }
 
+
+@media screen and (max-width: 1600px) 
+{
+    .landing-illustration .imgcontainer
+    {
+        transform: translate(0, -5vw);
+    }
+}
+
 @media screen and (max-width: 1200px) 
 {
     .landing-illustration .imgcontainer
@@ -415,6 +424,22 @@ p {
     }
 }
 
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) 
+{
+    .landing-illustration .imgcontainer
+    {
+        position: relative;
+        width: 133vw;
+        height: 45vw;
+        transform: translate(5vw, -5vw);
+    }
+    
+    .landing-illustration
+    {
+        bottom: 0;
+    }
+}
 
 @media screen and (max-width: 900px) 
 {
