@@ -167,7 +167,7 @@ body {
   font-family: 'Avenir Next',Helvetica Neue,Helvetica,Arial,sans-serif;
   font-style: normal;
   font-size: 0.9rem;
-  background-color: #05141D;
+  background-color: #0A0618;
 }
 
 img {
@@ -178,6 +178,11 @@ section {
   padding: 30px 50px 30px 50px;
 }
 
+section.about-container
+{
+    padding-top: 0;
+}
+
 ul {
   list-style-type: none;
   padding-left: 0px;
@@ -185,7 +190,7 @@ ul {
 
 .section-title {
   font-family: 'Avenir Next',Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
@@ -196,7 +201,7 @@ ul {
   letter-spacing: -.025em;
   width: 100%;
   text-align: left;  
-  margin-left: 20vw;
+  margin-left: 20vw; /* TODO: fix this */
   /*background-color: red;*/
 }
 
@@ -221,17 +226,22 @@ a:link,
   align-items: center;
 }
 
+div.stats-content h2
+{
+    line-height: 4.25rem;
+}
+
 button {
-border: 1.5px solid white;
-  background: none;
-  border-radius: 3.05em;
-  color:white;
-  height: 2.6em;
-  padding: 0 1.1em 0 1.1em;
-  font-size: 0.83rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: .2s;
+    border: 1.25px solid white;
+    background: none;
+    border-radius: 3.05em;
+    color:white;
+    height: 2.6em;
+    padding: 0.1em 1.1em 0 1.1em;
+    font-size: 0.83rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .15s;
 }
 
 button:focus {outline:0;}
@@ -299,7 +309,7 @@ p {
 .page-header nav {
   flex: 1;
   height: 100%;
-  margin-right: 100px;
+  margin-right: 130px;
   color: white;
 }
 
@@ -360,8 +370,8 @@ p {
   display: flex;
   align-items: center;
   background-color: #02042B;
-  background: -webkit-linear-gradient(-45deg, #02002C, #0A0843);
-  background: linear-gradient(-45deg, #02002C, #0A0843);
+  background: -webkit-linear-gradient(-45deg, #02002C, rgb(39, 10, 92));
+  background: linear-gradient(-45deg, #02002C, rgb(39, 10, 92));
   background-size: 400% 400%;
   -webkit-animation: Gradient 20s ease infinite;
 	-moz-animation: Gradient 20s ease infinite;
@@ -492,8 +502,8 @@ div.imgcontainer-overlay
 
 .landing-container .hackdavis {
   font-family: Avenir Next;
-  font-size: 4rem;
-  line-height: 5.6rem;
+  font-size: 3.5rem;
+  line-height: 5rem;
   text-transform: uppercase;
   font-weight: 200;
 }
@@ -505,7 +515,7 @@ div.imgcontainer-overlay
 .landing-container .code {
 font-family: "Roboto Mono", monospace;
 font-weight: 100;
-font-size: 25px;
+font-size: 1.4rem;
 line-height: 29px;
 }
 
@@ -530,6 +540,7 @@ line-height: 29px;
   font-size: 0.9rem;
   line-height: 1rem;
   z-index: 1;
+  transition: 0.15s linear all;
   /*background-image: linear-gradient(
     to right,
     #CA3194,
@@ -547,7 +558,7 @@ line-height: 29px;
 /******* stats *******/
 .stats-container {
   text-align: center;
-  background: #05141D;
+  background: #0A0618;
 }
 
 .stats-content {
@@ -614,7 +625,7 @@ h2.stats {
 /******* about *******/
 .about-container {
   text-align: center;
-  background: #05141D;  
+  background: #0A0618;  
 }
 
 .about-content {
@@ -722,7 +733,7 @@ p.tracks-des {
 \* ------------------------------------------------------------ */
 .schedule-container {
   text-align: center;
-  background-color: #05141D; 
+  background-color: #0A0618; 
 }
 
 .day {
@@ -739,6 +750,7 @@ p.tracks-des {
   font-size: 1.25rem;
   letter-spacing: .5px;
   text-transform: uppercase;
+  text-align: left;
   margin-bottom: 2.5rem;
 }
 
@@ -750,11 +762,10 @@ p.tracks-des {
 }
 
 .event {
-	height: 55px;
 	width: 17rem;
 	margin: 0 auto;
 	text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .event > p {
@@ -770,10 +781,10 @@ p.tracks-des {
 }
 
 .time {
-	font-size: 1.94rem;
+	font-size: 1.6rem;
 	font-weight: 500;
 	width: 70px;
-	line-height: 40px;
+	line-height: 30px;
 	height: 40px;
   float: left;
   text-align: right;
@@ -799,9 +810,9 @@ p.tracks-des {
 }
 
 .event-title {
+    font-size: 1.1rem;
 	font-weight: 500;
   line-height: 30px;
-  text-transform: uppercase;
   float: left;
 	width: 10.625rem;
 	text-align: left;
@@ -811,7 +822,7 @@ p.tracks-des {
 /******* faq *******/
 .faq-container {
   text-align: center;
-  background-color: #05141D;
+  background-color: #0A0618;
 }
 
 .faq-content {
@@ -849,9 +860,10 @@ p.tracks-des {
   cursor: pointer;
 }
 
+
 .accordion a.active {
   color: #fff;
-  border-bottom: 1px solid #7FFFD6;
+  border-bottom: 1.5px solid #F0918E;
 }
 
 .accordion a.question::after {
@@ -904,7 +916,7 @@ p.tracks-des {
   text-align: center;
   padding-top: 15vh;
   padding-bottom: 15vh;
-  background-color: #05141D;
+  background-color: #0A0618;
 }
 
 .sponsors-text {
@@ -955,7 +967,7 @@ p.tracks-des {
 \* ------------------------------------------------------------ */
 .contact-container {
   text-align: center;
-  background: #05141D;
+  background: #0A0618;
 }
 
 img.logo-picture {
