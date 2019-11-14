@@ -26,7 +26,7 @@
         }
       },
       "opacity": {
-        "value": 1,
+        "value": 0.75,
         "random": false,
         "anim": {
           "enable": false,
@@ -54,7 +54,7 @@
       },
       "move": {
         "enable": true,
-        "speed": 2,
+        "speed": 1,
         "direction": "top",
         "random": false,
         "straight": true,
