@@ -199,7 +199,7 @@ ul {
   margin-bottom: 25px;
   padding-top: 35px;
   letter-spacing: -.025em;
-  width: 100%;
+  /*width: 100%;*/
   text-align: left;  
   margin-left: 20vw; /* TODO: fix this */
   /*background-color: red;*/
