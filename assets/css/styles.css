@@ -526,13 +526,13 @@ line-height: 29px;
   margin: 2em 0 2em 0;
 }
 
-.landing-container .buttons {
+.buttons {
     margin-top: 1rem;
   display: flex;
   flex-direction: row;
   width: 100%;
 }
-.landing-container button {
+button {
   position: relative;
   margin-right: 1em; 
   padding-left: 1.5rem;
@@ -548,7 +548,7 @@ line-height: 29px;
   );*/
 }
 
-.landing-container button:hover {
+button:hover {
     opacity: 1;
   border-radius: 3.05em;
     background: white;
@@ -1405,4 +1405,9 @@ div.cohosted-by a
 div.cohosted-by .diamond-sponsor
 {
     max-height: 3.5rem;
+}
+
+button.centered
+{
+    display: inline-block;
 }
