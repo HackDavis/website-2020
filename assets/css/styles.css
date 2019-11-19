@@ -232,7 +232,7 @@ div.stats-content h2
 }
 
 button {
-    border: 1.25px solid white;
+    border: 1.5px solid white;
     background: none;
     border-radius: 3.05em;
     color:white;
@@ -304,6 +304,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.page-header .logo img:hover {
+    cursor: pointer;
 }
 
 .page-header nav {
@@ -810,9 +815,9 @@ p.tracks-des {
 }
 
 .event-title {
-    font-size: 1.1rem;
-	font-weight: 500;
-  line-height: 30px;
+    font-size: 1rem;
+	font-weight: 400;
+  line-height: 26px;
   float: left;
 	width: 10.625rem;
 	text-align: left;
@@ -894,7 +899,7 @@ p.tracks-des {
 }
 
 .accordion .content p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   margin-bottom: 0;
 }
