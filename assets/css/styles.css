@@ -478,8 +478,28 @@ p {
     {
         display: none;
     }
+
+    div.socialgood-illustration
+    {
+        display: none;
+    }
 }
 
+div.socialgood-illustration
+{
+    position: relative;
+    width: 20vw;
+    height: 25vw;
+}
+
+div.socialgood-illustration img
+{
+    position: absolute;
+    left: -47vw;
+    top: -11vw;
+    height: 40vw;
+    width: auto;
+}
 
 
 div.imgcontainer-overlay
@@ -1274,6 +1294,11 @@ max-height: 40px;
     animation: updown 5s ease-in-out infinite;
 }
 
+.updown-heart
+{
+    animation: updown-heart 6s ease-in-out infinite;
+}
+
 .rightbutton
 {
     animation: rightbutton 3s ease-in-out infinite;
@@ -1365,6 +1390,18 @@ max-height: 40px;
 	}
 	50% {
 		transform: translateY(30px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes updown-heart {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-15px);
 	}
 	100% {
 		transform: translateY(0);
