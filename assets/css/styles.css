@@ -226,11 +226,6 @@ a:link,
   align-items: center;
 }
 
-div.stats-content h2
-{
-    line-height: 4.25rem;
-}
-
 button {
     border: 1.5px solid white;
     background: none;
@@ -479,6 +474,11 @@ p {
         display: none;
     }
 
+    .stats-illustration
+    {
+        display: none;
+    }
+
     div.socialgood-illustration
     {
         display: none;
@@ -584,16 +584,18 @@ button:hover {
 .stats-container {
   text-align: center;
   background: #0A0618;
+  display: flex;
 }
 
 .stats-content {
   width: fit-content;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 12vw;
+  z-index: 100;
 }
 
 .stats-content .row {
@@ -603,8 +605,9 @@ button:hover {
 
 h2.stats {
   font-weight: 700;
-  font-size: 2.22em;
+  font-size: 1.8em;
   margin-bottom: 0;
+  line-height: 4.25rem;
 }
 
 .list-features li {
@@ -635,6 +638,41 @@ h2.stats {
 .list-features li h2 small {
   font-size: .84em;
   font-weight: 900;
+}
+
+/******* stats illustration *******/
+
+div.stats-illustration
+{
+    position: relative;
+    width: 20vw;
+    height: 100vh;
+}
+
+.stats-illustration .img-container img
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+}
+
+.stats-illustration .img-container .tower {
+  z-index: 1;
+}
+
+.stats-illustration .img-container .cube {
+  z-index: 2;
+}
+
+.stats-illustration .img-container .ring-back {
+  z-index: 0;
+}
+
+.stats-illustration .img-container .ring-front {
+  z-index: 2;
 }
 
 /******* recap *******/
