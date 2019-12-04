@@ -583,19 +583,21 @@ button:hover {
 /******* stats *******/
 .stats-container {
   text-align: center;
-  background: #0A0618;
+  background: #0a0618;
   display: flex;
+  text-align: center;
 }
 
 .stats-content {
+    display: inline-flex;
+    flex-direction: column;
+  justify-content: center;
   width: fit-content;
   text-align: left;
   font-size: 1.4rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
-  margin-left: auto;
-  margin-right: 12vw;
-  z-index: 100;
+  z-index: 2;
 }
 
 .stats-content .row {
