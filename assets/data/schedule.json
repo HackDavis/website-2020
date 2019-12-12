@@ -1,0 +1,14 @@
+{
+    "data": [
+        {
+            "name": "Workshop 1",
+            "description": "Really cool workshop",
+            "time": "9:00"
+        },
+        {
+            "name": "Goog Workshop",
+            "description": "It's a goog workshop! Who wouldn't want to attend? 🤔",
+            "time": "11:15"
+        }
+    ]
+}
