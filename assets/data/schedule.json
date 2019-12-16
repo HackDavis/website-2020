@@ -21,7 +21,7 @@
         {
             "name": "Lunch",
             "description": "Yummy lunch to make your belly happy",
-            "time": "11",
+            "time": "  ",
             "type": "event"
         },
         {
@@ -55,7 +55,7 @@
         {
             "name": "Lunch",
             "description": "Have some food after all your hard work",
-            "time": "1",
+            "time": " ",
             "type": "event"
         },
         {
