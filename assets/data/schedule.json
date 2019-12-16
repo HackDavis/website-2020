@@ -3,14 +3,20 @@
     "endTime": "Sun, 18 Jan 2020 13:00:00 PST",
     "data": [
         {
+            "name": "Saturday",
+            "type": "day"
+        },
+        {
             "name": "Workshop 1",
             "description": "Really cool workshop",
-            "time": "9:00"
+            "time": "9:00",
+            "type": "event"
         },
         {
             "name": "Goog Workshop",
             "description": "It's a goog workshop! Who wouldn't want to attend? 🤔",
-            "time": "11:15"
+            "time": "11:15",
+            "type": "event"
         }
     ]
 }
