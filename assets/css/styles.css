@@ -994,7 +994,7 @@ p.tracks-des {
 }
 
 .sponsors-link {
-  display: block;
+  display: inline-block;
 }
 
 /* ------------------------------------------------------------ *\
@@ -1490,6 +1490,11 @@ div.cohosted-by .diamond-sponsor
 }
 
 button.centered
+{
+    display: inline-block;
+}
+
+div.col-sm-8
 {
     display: inline-block;
 }
