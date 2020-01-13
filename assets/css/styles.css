@@ -997,6 +997,11 @@ p.tracks-des {
   display: inline-block;
 }
 
+.sponsors-link:hover
+{
+    transform: scale(1.1);
+}
+
 /* ------------------------------------------------------------ *\
   sponsor images
 \* ------------------------------------------------------------ */
@@ -1184,11 +1189,11 @@ div.apps-open-soon
 }
 
 img.diamond-sponsor {
-max-height: 150px;
+max-height: 170px;
 }
 
 img.platinum-sponsor {
-max-height: 100px;
+max-height: 105px;
 }
 
 img.gold-sponsor {
@@ -1196,11 +1201,11 @@ max-height: 80px;
 }
 
 img.silver-sponsor {
-max-height: 60px;
+max-height: 70px;
 }
 
 img.bronze-sponsor {
-max-height: 40px;
+max-height: 60px;
 }
 
 @media screen and (max-width: 768px) {
