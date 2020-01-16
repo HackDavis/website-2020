@@ -8,38 +8,44 @@
         },
         {
             "name": "Check in begins",
-            "description": "Come and pick up some swag and check in",
-            "time": "9:00",
+            "description": "",
+            "time": "9am",
             "type": "event"
         },
         {
             "name": "Check in closes",
-            "description": "Make sure you're checked in before it closes",
-            "time": "11",
+            "description": "Make sure you're checked in before check-in closes!",
+            "time": "11am",
             "type": "event"
         },
         {
             "name": "Lunch",
-            "description": "Yummy lunch to make your belly happy",
-            "time": "  ",
+            "description": "",
+            "time": "",
             "type": "event"
         },
         {
             "name": "Opening ceremony",
-            "description": "Sweet opening ceremony with awesome speakers",
-            "time": "12",
+            "description": "",
+            "time": "12pm",
             "type": "event"
         },
         {
             "name": "Hacking begins",
-            "description": "Ready...set...GOOOO!",
-            "time": "1",
+            "description": "",
+            "time": "1pm",
             "type": "event"
         },
         {
             "name": "Dinner",
-            "description": "I hope you're hungry because we've got FOOD🍖",
-            "time": "6:30",
+            "description": "",
+            "time": "6:30pm",
+            "type": "event"
+        },
+        {
+            "name": "Boba & cookies",
+            "description": "",
+            "time": "9:30pm",
             "type": "event"
         },
         {
@@ -47,27 +53,39 @@
             "type": "day"
         },
         {
+            "name": "Midnight snack",
+            "description": "",
+            "time": "12am",
+            "type": "event"
+        },
+        {
+            "name": "Breakfast",
+            "description": "",
+            "time": "8:30am",
+            "type": "event"
+        },
+        {
             "name": "Hacking ends",
-            "description": "Finish those hacks and submit them for a chance to win sweet prizes",
-            "time": "1",
+            "description": "Finish those hacks and submit them on hackdavis2020.devpost.com!",
+            "time": "1pm",
             "type": "event"
         },
         {
             "name": "Lunch",
-            "description": "Have some food after all your hard work",
-            "time": " ",
+            "description": "",
+            "time": "",
             "type": "event"
         },
         {
             "name": "Demos and judging",
-            "description": "Show off your sweet hack to the judges",
-            "time": "2",
+            "description": "Show off your sweet hack to the judges!",
+            "time": "2pm",
             "type": "event"
         },
         {
             "name": "Closing ceremony",
-            "description": "Closing remarks and announcement of the prize winners",
-            "time": "4",
+            "description": "Closing remarks and awarding of prizes",
+            "time": "4pm",
             "type": "event"
         }
     ]
