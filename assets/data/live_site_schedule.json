@@ -27,7 +27,7 @@
             "type": "event",
             "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
             "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "tags": ["All", "Activities"]
         },
         {
             "name": "Opening ceremony",
@@ -45,7 +45,7 @@
             "type": "event",
             "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
             "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "tags": ["All", "Activities"]
         },
         {
             "name": "Dinner",
@@ -54,7 +54,7 @@
             "type": "event",
             "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
             "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "tags": ["All", "Activities"]
         },
         {
             "name": "Boba & cookies",
@@ -72,7 +72,7 @@
             "type": "event",
             "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
             "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "tags": ["All", "Logistics"]
         },
         {
             "name": "Breakfast",
@@ -81,7 +81,7 @@
             "type": "event",
             "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
             "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "tags": ["All", "Logistics"]
         },
         {
             "name": "Hacking ends",
@@ -90,7 +90,7 @@
             "type": "event",
             "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
             "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "tags": ["All", "Logistics"]
         },
         {
             "name": "Lunch",
@@ -99,7 +99,7 @@
             "type": "event",
             "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
             "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "tags": ["All", "Meals"]
         },
         {
             "name": "Demos and judging",
@@ -117,7 +117,7 @@
             "type": "event",
             "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
             "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "tags": ["All", "Meals"]
         }
     ]
 }
