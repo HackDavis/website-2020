@@ -64,7 +64,10 @@
             "name": "Boba & cookies",
             "description": "",
             "time": "9:30",
-            "type": "event"
+            "type": "event",
+            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "tags": ["Workshops"]
         },
         {
             "name": "Sunday",
@@ -74,13 +77,19 @@
             "name": "Midnight snack",
             "description": "",
             "time": "12",
-            "type": "event"
+            "type": "event",
+            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "tags": ["Workshops"]
         },
         {
             "name": "Breakfast",
             "description": "",
             "time": "8:30",
-            "type": "event"
+            "type": "event",
+            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "tags": ["Workshops"]
         },
         {
             "name": "Hacking ends",
