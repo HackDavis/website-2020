@@ -15,7 +15,7 @@
         {
             "name": "Check in closes",
             "description": "Make sure you're checked in before check-in closes!",
-            "time": "11am",
+            "time": "11",
             "type": "event"
         },
         {
@@ -33,19 +33,19 @@
         {
             "name": "Hacking begins",
             "description": "",
-            "time": "1pm",
+            "time": "1",
             "type": "event"
         },
         {
             "name": "Dinner",
             "description": "",
-            "time": "6:30pm",
+            "time": "6:30",
             "type": "event"
         },
         {
             "name": "Boba & cookies",
             "description": "",
-            "time": "9:30pm",
+            "time": "9:30",
             "type": "event"
         },
         {
@@ -61,7 +61,7 @@
         {
             "name": "Breakfast",
             "description": "",
-            "time": "8:30am",
+            "time": "8:30",
             "type": "event"
         },
         {
