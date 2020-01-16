@@ -9,7 +9,7 @@
         {
             "name": "Check in begins",
             "description": "",
-            "time": "9am",
+            "time": "9",
             "type": "event"
         },
         {
@@ -27,7 +27,7 @@
         {
             "name": "Opening ceremony",
             "description": "",
-            "time": "12pm",
+            "time": "12",
             "type": "event"
         },
         {
@@ -55,7 +55,7 @@
         {
             "name": "Midnight snack",
             "description": "",
-            "time": "12am",
+            "time": "12",
             "type": "event"
         },
         {
@@ -67,7 +67,7 @@
         {
             "name": "Hacking ends",
             "description": "Finish those hacks and submit them on hackdavis2020.devpost.com!",
-            "time": "1pm",
+            "time": "1",
             "type": "event"
         },
         {
@@ -79,13 +79,13 @@
         {
             "name": "Demos and judging",
             "description": "Show off your sweet hack to the judges!",
-            "time": "2pm",
+            "time": "2",
             "type": "event"
         },
         {
             "name": "Closing ceremony",
             "description": "Closing remarks and awarding of prizes",
-            "time": "4pm",
+            "time": "4",
             "type": "event"
         }
     ]
