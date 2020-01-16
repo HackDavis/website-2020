@@ -7,8 +7,8 @@
             "description": "",
             "time": "9",
             "type": "event",
-            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -16,8 +16,8 @@
             "description": "Make sure you're checked in before check-in closes!",
             "time": "11",
             "type": "event",
-            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -25,8 +25,8 @@
             "description": "",
             "time": "",
             "type": "event",
-            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -34,8 +34,8 @@
             "description": "",
             "time": "12",
             "type": "event",
-            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -43,8 +43,8 @@
             "description": "",
             "time": "1",
             "type": "event",
-            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -52,8 +52,8 @@
             "description": "",
             "time": "6:30",
             "type": "event",
-            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -61,8 +61,8 @@
             "description": "",
             "time": "9:30",
             "type": "event",
-            "startTime_utc": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -70,8 +70,8 @@
             "description": "",
             "time": "12",
             "type": "event",
-            "startTime_utc": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 19 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -79,8 +79,8 @@
             "description": "",
             "time": "8:30",
             "type": "event",
-            "startTime_utc": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 19 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -88,8 +88,8 @@
             "description": "Finish those hacks and submit them on hackdavis2020.devpost.com!",
             "time": "1",
             "type": "event",
-            "startTime_utc": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 19 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -97,8 +97,8 @@
             "description": "",
             "time": "",
             "type": "event",
-            "startTime_utc": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 19 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -106,8 +106,8 @@
             "description": "Show off your sweet hack to the judges!",
             "time": "2",
             "type": "event",
-            "startTime_utc": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 19 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         },
         {
@@ -115,8 +115,8 @@
             "description": "Closing remarks and awarding of prizes",
             "time": "4",
             "type": "event",
-            "startTime_utc": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime_utc": "Sat, 19 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
             "tags": ["All", "Workshops"]
         }
     ]
