@@ -3,93 +3,302 @@
     "endTime": "Sun, 19 Jan 2020 13:00:00 PST",
     "data": [
         {
-            "name": "Check in begins",
+            "name": "Saturday",
+            "type": "day"
+        },
+        {
+            "name": "Check in",
             "description": "",
             "time": "9",
             "type": "event",
             "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
-        },
-        {
-            "name": "Check in closes",
-            "description": "Make sure you're checked in before check-in closes!",
-            "time": "11",
-            "type": "event",
-            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "endTime": "Sat, 18 Jan 2020 11:00:00 PST",
+            "tags": ["All", "Logistics"]
         },
         {
             "name": "Lunch",
             "description": "",
             "time": "",
             "type": "event",
-            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Activities"]
+            "startTime": "Sat, 18 Jan 2020 11:00:00 PST",
+            "tags": ["All", "Food"]
         },
         {
-            "name": "Opening ceremony",
+            "name": "Opening Ceremony",
             "description": "",
             "time": "12",
             "type": "event",
-            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "startTime": "Sat, 18 Jan 2020 12:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 13:00:00 PST",
+            "tags": ["All", "Logistics"]
         },
         {
             "name": "Hacking begins",
             "description": "",
             "time": "1",
             "type": "event",
-            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 13:00:00 PST",
+            "tags": ["All", "Logistics"]
+        },
+        {
+            "name": "Team Mixer",
+            "description": "Networking Space. Find your teammates for the next 24 hours here!",
+            "time": "",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 13:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 14:00:00 PST",
             "tags": ["All", "Activities"]
+        },
+        {
+            "name": "Lunch",
+            "description": "",
+            "time": "",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 13:00:00 PST",
+            "tags": ["All", "Food"]
+        },
+        {
+            "name": "Meet and Greet NPOs",
+            "description": "Ballroom A. Come to hear our wonderful NPOs and hear about the causes they're advocating for. This is a great space in which to find your next project idea.",
+            "time": "1:30",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 13:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 14:30:00 PST",
+            "tags": ["All", "Activities"]
+        },
+        {
+            "name": "Game Area opens",
+            "description": "",
+            "time": "2",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 14:00:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: Leveraging OSIsoft APIs for UC Davis Energy Data by OSIsoft",
+            "description": "Ballroom A",
+            "time": "2:30",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 14:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 15:30:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: API Development and Testing by Bit Project",
+            "description": "Ballroom A",
+            "time": "3:30",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 15:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 16:30:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: Intro to Rapid Prototyping by Student Startup Center",
+            "description": "Makerspace",
+            "time": "",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 15:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 17:00:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: 3 Powerful Google Cloud Products for Your Project by Google Cloud",
+            "description": "Ballroom A",
+            "time": "4:30",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 16:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 17:30:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: Cybersecurity Prep & Defense: Your Role as Programmers by Centene",
+            "description": "Ballroom A",
+            "time": "5:30",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 17:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 18:30:00 PST",
+            "tags": ["All", "Workshops"]
         },
         {
             "name": "Dinner",
             "description": "",
             "time": "6:30",
             "type": "event",
-            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 18:30:00 PST",
+            "tags": ["All", "Food"]
+        },
+        {
+            "name": "Workshop: Virtual Reality Workshop by Student Startup Center",
+            "description": "Makerspace",
+            "time": "7:30",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 19:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 20:30:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: Intro to Frontend Development with Vue.js by Hao Huang",
+            "description": "Ballroom A",
+            "time": "",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 19:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 20:30:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: Personal Branding Workshop by #include",
+            "description": "Ballroom B",
+            "time": "",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 19:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 20:30:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "MLH Cup Stacking",
+            "description": "Games Area",
+            "time": "8",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 20:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 21:00:00 PST",
             "tags": ["All", "Activities"]
+        },
+        {
+            "name": "Resume Reviews",
+            "description": "Networking Space",
+            "time": "8:30",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 20:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 21:30:00 PST",
+            "tags": ["All", "Activities"]
+        },
+        {
+            "name": "Workshop: Intro to Android Mobile Development by DSC",
+            "description": "Ballroom A",
+            "time": "",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 20:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 21:30:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: Introduction to Unity by Game Dev Club",
+            "description": "Ballroom B",
+            "time": "",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 20:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 21:30:00 PST",
+            "tags": ["All", "Workshops"]
         },
         {
             "name": "Boba & cookies",
             "description": "",
             "time": "9:30",
             "type": "event",
-            "startTime": "Sat, 18 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 18 Jan 2020 10:00:00 PST",
+            "startTime": "Sat, 18 Jan 2020 21:30:00 PST",
+            "tags": ["All", "Food"]
+        },
+        {
+            "name": "Workshop: Machine Learning for Beginners by AI Society",
+            "description": "Ballroom A",
+            "time": "10",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 22:00:00 PST",
+            "endTime": "Sat, 18 Jan 2020 23:00:00 PST",
             "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Table Tennis Tournament",
+            "description": "Games Area",
+            "time": "1030",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 22:30:00 PST",
+            "endTime": "Sat, 18 Jan 2020 23:30:00 PST",
+            "tags": ["All", "Activities"]
+        },
+        {
+            "name": "Workshop: UX Design for Hackathons by DCSC and WiCS",
+            "description": "Ballroom B",
+            "time": "11",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 23:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 00:00:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Workshop: Intermediate Topics in Machine Learning by AI Society",
+            "description": "Ballroom A",
+            "time": "",
+            "type": "event",
+            "startTime": "Sat, 18 Jan 2020 23:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 00:00:00 PST",
+            "tags": ["All", "Workshops"]
+        },
+        {
+            "name": "Sunday",
+            "type": "day"
         },
         {
             "name": "Midnight snack",
             "description": "",
             "time": "12",
             "type": "event",
-            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Logistics"]
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
+            "tags": ["All", "Food"]
+        },
+        {
+            "name": "Badminton Tournament",
+            "description": "Games Area",
+            "time": "1230",
+            "type": "event",
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
+            "tags": ["All", "Activities"]
+        },
+        {
+            "name": "Smash Tournament",
+            "description": "Games Area",
+            "time": "1:30",
+            "type": "event",
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
+            "tags": ["All", "Activities"]
         },
         {
             "name": "Breakfast",
             "description": "",
             "time": "8:30",
             "type": "event",
-            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
+            "tags": ["All", "Food"]
+        },
+        {
+            "name": "Game Area closes",
+            "description": "",
+            "time": "10",
+            "type": "event",
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
+            "tags": ["All", "Activities"]
+        },
+        {
+            "name": "Submission period closes",
+            "description": "Submit your project on Devpost! You can still continue working till hacking ends.",
+            "time": "12",
+            "type": "event",
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
             "tags": ["All", "Logistics"]
         },
         {
             "name": "Hacking ends",
-            "description": "Finish those hacks and submit them on hackdavis2020.devpost.com!",
+            "description": "",
             "time": "1",
             "type": "event",
-            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
             "tags": ["All", "Logistics"]
         },
         {
@@ -97,27 +306,27 @@
             "description": "",
             "time": "",
             "type": "event",
-            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Meals"]
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
+            "tags": ["All", "Food"]
         },
         {
             "name": "Demos and judging",
-            "description": "Show off your sweet hack to the judges!",
+            "description": "Show off your sweet hack to the judges! Open to the public.",
             "time": "2",
             "type": "event",
-            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Workshops"]
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
+            "tags": ["All", "Logistics"]
         },
         {
             "name": "Closing ceremony",
-            "description": "Closing remarks and awarding of prizes",
+            "description": "Closing remarks and awarding of prizes!",
             "time": "4",
             "type": "event",
-            "startTime": "Sat, 19 Jan 2020 09:00:00 PST",
-            "endTime": "Sat, 19 Jan 2020 10:00:00 PST",
-            "tags": ["All", "Meals"]
+            "startTime": "Sun, 19 Jan 2020 09:00:00 PST",
+            "endTime": "Sun, 19 Jan 2020 10:00:00 PST",
+            "tags": ["All", "Logistics"]
         }
     ]
 }
