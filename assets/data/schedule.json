@@ -62,7 +62,7 @@
         },
         {
             "name": "Workshop: API Development and Testing by Bit Project",
-            "description": "Ballroom A",
+            "description": "Ballroom A. In this workshop, you will learn how to use APIs in your projects. APIs allow for easy communication between projects and developer tools. You will be testing mock APIs and also get a chance to interact with real existing developer APIs, all through the developer tool Postman.",
             "time": "3:30",
             "type": "event"
         },
@@ -91,14 +91,14 @@
             "type": "event"
         },
         {
-            "name": "Workshop: Virtual Reality Workshop by Student Startup Center",
+            "name": "Workshop: Build Your Virtual Reality Game by Student Startup Center",
             "description": "Makerspace",
             "time": "7:30",
             "type": "event"
         },
         {
             "name": "Workshop: Intro to Frontend Development with Vue.js by Hao Huang",
-            "description": "Ballroom A",
+            "description": "Ballroom A. In this workshop, you will learn the basics of Vue.js, the most popular frontend framework, and how you can use Vue to create reusable components to speed up future development. We will also do a live coding example on how to create a simple to-do list app using Vue.",
             "time": "",
             "type": "event"
         },
@@ -115,8 +115,8 @@
             "type": "event"
         },
         {
-            "name": "Resume Reviews",
-            "description": "Networking Space",
+            "name": "Resume Feedback Session",
+            "description": "Networking Space. Get detailed feedback on your resumes & how you can improve them from our set of wonderful HD alumni.",
             "time": "8:30",
             "type": "event"
         },
@@ -145,9 +145,9 @@
             "type": "event"
         },
         {
-            "name": "Workshop: UX Design for Hackathons by DCSC and WiCS",
-            "description": "Ballroom B",
-            "time": "10",
+            "name": "Workshop: UI/UX Design for Hackathons by DCSC and WiCS",
+            "description": "Ballroom B. Davis Computer Science Club and Davis Women in Computer Science are proud to present their “UI/UX Design for Hackathons” workshop! We will go over the basics of UX design, how you can incorporate design thinking into creating a meaningful product, and the basics of using Adobe XD to design, prototype, and eventually handoff to developers!",
+            "time": "",
             "type": "event"
         },
         {
