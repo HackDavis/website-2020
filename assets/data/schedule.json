@@ -140,7 +140,7 @@
         },
         {
             "name": "Workshop: Machine Learning for Beginners by AI Society",
-            "description": "Ballroom A",
+            "description": "Ballroom A. In this workshop, you will learn how to build neural networks- computer systems inspired by the human brain. Learn how to build neural networks 3 different ways using Tensorflow/Keras.",
             "time": "10",
             "type": "event"
         },
@@ -158,7 +158,7 @@
         },
         {
             "name": "Workshop: Intermediate Topics in Machine Learning by AI Society",
-            "description": "Ballroom A",
+            "description": "Ballroom A. Come to this workshop to learn a deeper understanding of Neural Networks, including an application of a research paper.",
             "time": "",
             "type": "event"
         },
