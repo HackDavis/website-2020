@@ -145,15 +145,15 @@
             "type": "event"
         },
         {
-            "name": "Table Tennis Tournament",
-            "description": "Games Area",
-            "time": "1030",
+            "name": "Workshop: UX Design for Hackathons by DCSC and WiCS",
+            "description": "Ballroom B",
+            "time": "10",
             "type": "event"
         },
         {
-            "name": "Workshop: UX Design for Hackathons by DCSC and WiCS",
-            "description": "Ballroom B",
-            "time": "11",
+            "name": "Table Tennis Tournament",
+            "description": "Games Area",
+            "time": "1030",
             "type": "event"
         },
         {
