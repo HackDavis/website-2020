@@ -1,45 +1,165 @@
 {
-    "startTime": "Sat, 17 Jan 2020 13:00:00 PST",
-    "endTime": "Sun, 18 Jan 2020 13:00:00 PST",
+    "startTime": "Sat, 18 Jan 2020 13:00:00 PST",
+    "endTime": "Sun, 19 Jan 2020 13:00:00 PST",
     "data": [
         {
             "name": "Saturday",
             "type": "day"
         },
         {
-            "name": "Check in begins",
-            "description": "Come and pick up some swag and check in",
-            "time": "9:00",
+            "name": "Check-in begins",
+            "description": "",
+            "time": "9",
             "type": "event"
         },
         {
-            "name": "Check in closes",
-            "description": "Make sure you're checked in before it closes",
+            "name": "Check-in closes",
+            "description": "Make sure you're checked in before check-in closes!",
             "time": "11",
             "type": "event"
         },
         {
             "name": "Lunch",
-            "description": "Yummy lunch to make your belly happy",
-            "time": "  ",
+            "description": "",
+            "time": "",
             "type": "event"
         },
         {
-            "name": "Opening ceremony",
-            "description": "Sweet opening ceremony with awesome speakers",
+            "name": "Opening Ceremony",
+            "description": "",
             "time": "12",
             "type": "event"
         },
         {
             "name": "Hacking begins",
-            "description": "Ready...set...GOOOO!",
+            "description": "",
             "time": "1",
             "type": "event"
         },
         {
+            "name": "Team Mixer",
+            "description": "Networking Space. Find your teammates for the next 24 hours here!",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Meet and Greet NPOs",
+            "description": "Ballroom A. Come to hear our wonderful NPOs and hear about the causes they're advocating for. This is a great space in which to find your next project idea.",
+            "time": "1:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Leveraging OSIsoft APIs for UC Davis Energy Data by OSIsoft",
+            "description": "Ballroom A",
+            "time": "2:30",
+            "type": "event"
+        },
+        {
+            "name": "Game Area opens",
+            "description": "",
+            "time": "3",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: API Development and Testing by Bit Project",
+            "description": "Ballroom A. In this workshop, you will learn how to use APIs in your projects. APIs allow for easy communication between projects and developer tools. You will be testing mock APIs and also get a chance to interact with real existing developer APIs, all through the developer tool Postman.",
+            "time": "3:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Intro to Rapid Prototyping by Student Startup Center",
+            "description": "Makerspace",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: 3 Powerful Google Cloud Products for Your Project by Google Cloud",
+            "description": "Ballroom A",
+            "time": "4:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Cybersecurity Prep & Defense: Your Role as Programmers by Centene",
+            "description": "Ballroom A",
+            "time": "5:30",
+            "type": "event"
+        },
+        {
             "name": "Dinner",
-            "description": "I hope you're hungry because we've got FOOD🍖",
+            "description": "",
             "time": "6:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Build Your Virtual Reality Game by Student Startup Center",
+            "description": "Makerspace",
+            "time": "7:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Intro to Frontend Development with Vue.js by Hao Huang",
+            "description": "Ballroom A. In this workshop, you will learn the basics of Vue.js, the most popular frontend framework, and how you can use Vue to create reusable components to speed up future development. We will also do a live coding example on how to create a simple to-do list app using Vue.",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Personal Branding Workshop by #include",
+            "description": "Ballroom B",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "MLH Cup Stacking",
+            "description": "Games Area",
+            "time": "8",
+            "type": "event"
+        },
+        {
+            "name": "Resume Feedback Session",
+            "description": "Networking Space. Get detailed feedback on your resumes & how you can improve them from our set of wonderful HD alumni.",
+            "time": "8:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Intro to Android Mobile Development by DSC",
+            "description": "Ballroom A",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Introduction to Unity by Game Dev Club",
+            "description": "Ballroom B",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Boba & cookies",
+            "description": "",
+            "time": "9:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Machine Learning for Beginners by AI Society",
+            "description": "Ballroom A",
+            "time": "10",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: UI/UX Design for Hackathons by DCSC and WiCS",
+            "description": "Ballroom B. Davis Computer Science Club and Davis Women in Computer Science are proud to present their “UI/UX Design for Hackathons” workshop! We will go over the basics of UX design, how you can incorporate design thinking into creating a meaningful product, and the basics of using Adobe XD to design, prototype, and eventually handoff to developers!",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Table Tennis Tournament",
+            "description": "Games Area",
+            "time": "1030",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Intermediate Topics in Machine Learning by AI Society",
+            "description": "Ballroom A",
+            "time": "",
             "type": "event"
         },
         {
@@ -47,26 +167,62 @@
             "type": "day"
         },
         {
+            "name": "Midnight snack",
+            "description": "",
+            "time": "12",
+            "type": "event"
+        },
+        {
+            "name": "Badminton Tournament",
+            "description": "Games Area",
+            "time": "1230",
+            "type": "event"
+        },
+        {
+            "name": "Smash Tournament",
+            "description": "Games Area",
+            "time": "1:30",
+            "type": "event"
+        },
+        {
+            "name": "Breakfast",
+            "description": "",
+            "time": "8:30",
+            "type": "event"
+        },
+        {
+            "name": "Game Area closes",
+            "description": "",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Submission period closes",
+            "description": "Submit your project on Devpost! You can still continue working till hacking ends.",
+            "time": "12",
+            "type": "event"
+        },
+        {
             "name": "Hacking ends",
-            "description": "Finish those hacks and submit them for a chance to win sweet prizes",
+            "description": "",
             "time": "1",
             "type": "event"
         },
         {
             "name": "Lunch",
-            "description": "Have some food after all your hard work",
-            "time": " ",
+            "description": "",
+            "time": "",
             "type": "event"
         },
         {
             "name": "Demos and judging",
-            "description": "Show off your sweet hack to the judges",
+            "description": "Show off your sweet hack to the judges! Open to the public.",
             "time": "2",
             "type": "event"
         },
         {
             "name": "Closing ceremony",
-            "description": "Closing remarks and announcement of the prize winners",
+            "description": "Closing remarks and awarding of prizes!",
             "time": "4",
             "type": "event"
         }
