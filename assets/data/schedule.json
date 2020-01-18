@@ -49,15 +49,15 @@
             "type": "event"
         },
         {
-            "name": "Game Area opens",
-            "description": "",
-            "time": "2",
-            "type": "event"
-        },
-        {
             "name": "Workshop: Leveraging OSIsoft APIs for UC Davis Energy Data by OSIsoft",
             "description": "Ballroom A",
             "time": "2:30",
+            "type": "event"
+        },
+        {
+            "name": "Game Area opens",
+            "description": "",
+            "time": "3",
             "type": "event"
         },
         {
