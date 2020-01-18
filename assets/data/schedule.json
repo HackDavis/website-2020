@@ -37,15 +37,135 @@
             "type": "event"
         },
         {
+            "name": "Team Mixer",
+            "description": "Networking Space",
+            "time": "1",
+            "type": "event"
+        },
+        {
+            "name": "Lunch",
+            "description": "",
+            "time": "1",
+            "type": "event"
+        },
+        {
+            "name": "Meet and Greet NPOs",
+            "description": "Ballroom A",
+            "time": "1:30",
+            "type": "event"
+        },
+        {
+            "name": "Game Area opens",
+            "description": "",
+            "time": "2",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Leveraging OSIsoft APIs for UC Davis Energy Data by OSIsoft",
+            "description": "Ballroom A",
+            "time": "2:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: API Development and Testing by Bit Project",
+            "description": "Ballroom A",
+            "time": "3:30",
+            "type": "event"
+        },
+        {
+            "name": "Intro to Rapid Prototyping by Student Startup Center",
+            "description": "Makerspace",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: 3 Powerful Google Cloud Products for Your Project by Google Cloud",
+            "description": "Ballroom A",
+            "time": "4:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Cybersecurity Prep & Defense: Your Role as Programmers by Centene",
+            "description": "Ballroom A",
+            "time": "5:30",
+            "type": "event"
+        },
+        {
             "name": "Dinner",
             "description": "",
             "time": "6:30",
             "type": "event"
         },
         {
+            "name": "Workshop: Virtual Reality Workshop by Student Startup Center",
+            "description": "Makerspace",
+            "time": "7:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Intro to Frontend Development with Vue.js by Hao Huang",
+            "description": "Ballroom A",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Personal Branding Workshop by #include",
+            "description": "Ballroom B",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "MLH Cup Stacking",
+            "description": "Games Area.",
+            "time": "8",
+            "type": "event"
+        },
+        {
+            "name": "Resume Reviews",
+            "description": "Networking Space",
+            "time": "8:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Intro to Android Mobile Development by DSC",
+            "description": "Ballroom A",
+            "time": "",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Introduction to Unity by Game Dev Club",
+            "description": "Ballroom B",
+            "time": "",
+            "type": "event"
+        },
+        {
             "name": "Boba & cookies",
             "description": "",
             "time": "9:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Machine Learning for Beginners by AI Society",
+            "description": "",
+            "time": "10",
+            "type": "event"
+        },
+        {
+            "name": "Table Tennis Tournament",
+            "description": "",
+            "time": "10:30",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: UX Design for Hackathons by DCSC and WiCS",
+            "description": "",
+            "time": "11",
+            "type": "event"
+        },
+        {
+            "name": "Workshop: Intermediate Topics in Machine Learning by AI Society",
+            "description": "",
+            "time": "",
             "type": "event"
         },
         {
@@ -59,14 +179,38 @@
             "type": "event"
         },
         {
+            "name": "Badminton Tournament",
+            "description": "",
+            "time": "12:30",
+            "type": "event"
+        },
+        {
+            "name": "Smash Tournament",
+            "description": "",
+            "time": "1:30",
+            "type": "event"
+        },
+        {
             "name": "Breakfast",
             "description": "",
             "time": "8:30",
             "type": "event"
         },
         {
+            "name": "Game Area closes",
+            "description": "",
+            "time": "10",
+            "type": "event"
+        },
+        {
+            "name": "Submission period closes",
+            "description": "Submit your project on hackdavis2020.devpost.com! You can still continue working till hacking ends.",
+            "time": "12",
+            "type": "event"
+        },
+        {
             "name": "Hacking ends",
-            "description": "Finish those hacks and submit them on hackdavis2020.devpost.com!",
+            "description": "",
             "time": "1",
             "type": "event"
         },
@@ -78,7 +222,7 @@
         },
         {
             "name": "Demos and judging",
-            "description": "Show off your sweet hack to the judges!",
+            "description": "Show off your sweet hack to the judges! Open to the public.",
             "time": "2",
             "type": "event"
         },
