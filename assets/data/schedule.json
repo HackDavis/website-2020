@@ -25,7 +25,7 @@
             "type": "event"
         },
         {
-            "name": "Opening ceremony",
+            "name": "Opening Ceremony",
             "description": "",
             "time": "12",
             "type": "event"
@@ -38,19 +38,19 @@
         },
         {
             "name": "Team Mixer",
-            "description": "Networking Space",
-            "time": "1",
+            "description": "Networking Space. Find your teammates for the next 24 hours here!",
+            "time": "",
             "type": "event"
         },
         {
             "name": "Lunch",
             "description": "",
-            "time": "1",
+            "time": "",
             "type": "event"
         },
         {
             "name": "Meet and Greet NPOs",
-            "description": "Ballroom A",
+            "description": "Ballroom A. Come to hear our wonderful NPOs and hear about the causes they're advocating for. This is a great space in which to find your next project idea.",
             "time": "1:30",
             "type": "event"
         },
@@ -73,7 +73,7 @@
             "type": "event"
         },
         {
-            "name": "Intro to Rapid Prototyping by Student Startup Center",
+            "name": "Workshop: Intro to Rapid Prototyping by Student Startup Center",
             "description": "Makerspace",
             "time": "",
             "type": "event"
@@ -116,7 +116,7 @@
         },
         {
             "name": "MLH Cup Stacking",
-            "description": "Games Area.",
+            "description": "Games Area",
             "time": "8",
             "type": "event"
         },
@@ -146,25 +146,25 @@
         },
         {
             "name": "Workshop: Machine Learning for Beginners by AI Society",
-            "description": "",
+            "description": "Ballroom A",
             "time": "10",
             "type": "event"
         },
         {
             "name": "Table Tennis Tournament",
-            "description": "",
+            "description": "Games Area",
             "time": "10:30",
             "type": "event"
         },
         {
             "name": "Workshop: UX Design for Hackathons by DCSC and WiCS",
-            "description": "",
+            "description": "Ballroom B",
             "time": "11",
             "type": "event"
         },
         {
             "name": "Workshop: Intermediate Topics in Machine Learning by AI Society",
-            "description": "",
+            "description": "Ballroom A",
             "time": "",
             "type": "event"
         },
@@ -180,13 +180,13 @@
         },
         {
             "name": "Badminton Tournament",
-            "description": "",
+            "description": "Games Area",
             "time": "12:30",
             "type": "event"
         },
         {
             "name": "Smash Tournament",
-            "description": "",
+            "description": "Games Area",
             "time": "1:30",
             "type": "event"
         },
@@ -204,7 +204,7 @@
         },
         {
             "name": "Submission period closes",
-            "description": "Submit your project on hackdavis2020.devpost.com! You can still continue working till hacking ends.",
+            "description": "Submit your project on Devpost! You can still continue working till hacking ends.",
             "time": "12",
             "type": "event"
         },
@@ -228,7 +228,7 @@
         },
         {
             "name": "Closing ceremony",
-            "description": "Closing remarks and awarding of prizes",
+            "description": "Closing remarks and awarding of prizes!",
             "time": "4",
             "type": "event"
         }
