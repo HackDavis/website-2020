@@ -7,13 +7,13 @@
             "type": "day"
         },
         {
-            "name": "Check in begins",
+            "name": "Check-in begins",
             "description": "",
             "time": "9",
             "type": "event"
         },
         {
-            "name": "Check in closes",
+            "name": "Check-in closes",
             "description": "Make sure you're checked in before check-in closes!",
             "time": "11",
             "type": "event"
@@ -39,12 +39,6 @@
         {
             "name": "Team Mixer",
             "description": "Networking Space. Find your teammates for the next 24 hours here!",
-            "time": "",
-            "type": "event"
-        },
-        {
-            "name": "Lunch",
-            "description": "",
             "time": "",
             "type": "event"
         },
