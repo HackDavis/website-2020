@@ -153,14 +153,20 @@
         {
             "name": "Table Tennis Tournament",
             "description": "Games Area",
-            "time": "1030",
+            "time": "10:30",
             "type": "event"
         },
         {
             "name": "Workshop: Intermediate Topics in Machine Learning by AI Society",
             "description": "Ballroom A. Come to this workshop to learn a deeper understanding of Neural Networks, including an application of a research paper.",
-            "time": "",
+            "time": "11",
             "type": "event"
+        },
+        {
+            "name": "Land Your Dream Job or Internship",
+            "description": "Ballroom B. Figure out how to start the career you've always dreamed of!",
+            "time": "11",
+            "type": "event",
         },
         {
             "name": "Sunday",
@@ -175,7 +181,7 @@
         {
             "name": "Badminton Tournament",
             "description": "Games Area",
-            "time": "1230",
+            "time": "12:30",
             "type": "event"
         },
         {
