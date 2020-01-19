@@ -21,19 +21,19 @@
         {
             "name": "Lunch",
             "description": "",
-            "time": "",
+            "time": "11:30",
             "type": "event"
         },
         {
             "name": "Opening Ceremony",
             "description": "",
-            "time": "12",
+            "time": "12:30",
             "type": "event"
         },
         {
             "name": "Hacking begins",
             "description": "",
-            "time": "1",
+            "time": "1:30",
             "type": "event"
         },
         {
@@ -45,7 +45,7 @@
         {
             "name": "Meet and Greet NPOs",
             "description": "Ballroom A. Come to hear our wonderful NPOs and hear about the causes they're advocating for. This is a great space in which to find your next project idea.",
-            "time": "1:30",
+            "time": "2:00",
             "type": "event"
         },
         {
@@ -205,7 +205,7 @@
         {
             "name": "Hacking ends",
             "description": "",
-            "time": "1",
+            "time": "1:30",
             "type": "event"
         },
         {
@@ -217,7 +217,7 @@
         {
             "name": "Demos and judging",
             "description": "Show off your sweet hack to the judges! Open to the public.",
-            "time": "2",
+            "time": "2:15",
             "type": "event"
         },
         {
