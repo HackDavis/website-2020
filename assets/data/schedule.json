@@ -1,6 +1,6 @@
 {
     "startTime": "Sat, 18 Jan 2020 13:00:00 PST",
-    "endTime": "Sun, 19 Jan 2020 13:00:00 PST",
+    "endTime": "Sun, 19 Jan 2020 13:30:00 PST",
     "data": [
         {
             "name": "Saturday",
@@ -104,7 +104,7 @@
         },
         {
             "name": "Workshop: Personal Branding Workshop by #include",
-            "description": "Ballroom B",
+            "description": "Ballroom B. include will be hosting a workshop on career guidance and development. We will be going over forming your personal brand online and offline, as well as utilizing and improving your LinkedIn profile. We will also provide tips for building your resume, touch on how you can leverage HackDavis in your professional network, and end with a basic LaTeX tutorial as a means of designing your resume! We hope to see you there!",
             "time": "",
             "type": "event"
         },
@@ -128,7 +128,7 @@
         },
         {
             "name": "Workshop: Introduction to Unity by Game Dev Club",
-            "description": "Ballroom B",
+            "description": "Ballroom B. Come to our workshop to gain a foundational understanding of what Unity can be used for and how to use it in your projects. A sample project will be provided and we will be learning core concepts with it. We will be covering some of the most important concepts and by the end of the workshop, you will be able to make your own games.",
             "time": "",
             "type": "event"
         },
@@ -140,7 +140,7 @@
         },
         {
             "name": "Workshop: Machine Learning for Beginners by AI Society",
-            "description": "Ballroom A",
+            "description": "Ballroom A. In this workshop, you will learn how to build neural networks- computer systems inspired by the human brain. Learn how to build neural networks 3 different ways using Tensorflow/Keras.",
             "time": "10",
             "type": "event"
         },
@@ -153,12 +153,18 @@
         {
             "name": "Table Tennis Tournament",
             "description": "Games Area",
-            "time": "1030",
+            "time": "10:30",
             "type": "event"
         },
         {
             "name": "Workshop: Intermediate Topics in Machine Learning by AI Society",
-            "description": "Ballroom A",
+            "description": "Ballroom A. Come to this workshop to learn a deeper understanding of Neural Networks, including an application of a research paper.",
+            "time": "11",
+            "type": "event"
+        },
+        {
+            "name": "Land Your Dream Job or Internship",
+            "description": "Ballroom B. Figure out how to start the career you've always dreamed of!",
             "time": "",
             "type": "event"
         },
@@ -175,7 +181,7 @@
         {
             "name": "Badminton Tournament",
             "description": "Games Area",
-            "time": "1230",
+            "time": "12:30",
             "type": "event"
         },
         {
@@ -228,3 +234,5 @@
         }
     ]
 }
+
+
