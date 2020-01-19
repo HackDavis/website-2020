@@ -21,13 +21,13 @@
         {
             "name": "Lunch",
             "description": "",
-            "time": "11:30",
+            "time": "1130",
             "type": "event"
         },
         {
             "name": "Opening Ceremony",
             "description": "",
-            "time": "12:30",
+            "time": "1230",
             "type": "event"
         },
         {
@@ -153,7 +153,7 @@
         {
             "name": "Table Tennis Tournament",
             "description": "Games Area",
-            "time": "10:30",
+            "time": "1030",
             "type": "event"
         },
         {
@@ -181,7 +181,7 @@
         {
             "name": "Badminton Tournament",
             "description": "Games Area",
-            "time": "12:30",
+            "time": "1230",
             "type": "event"
         },
         {
@@ -229,7 +229,7 @@
         {
             "name": "Closing ceremony",
             "description": "Closing remarks and awarding of prizes!",
-            "time": "4",
+            "time": "4:30",
             "type": "event"
         }
     ]
