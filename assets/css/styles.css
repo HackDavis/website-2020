@@ -597,7 +597,7 @@ button:hover {
 
 div.team-faq
 {
-    margin-top: 60px;
+    padding-top: 20px;
     text-align: left;
     font-weight: normal;
     letter-spacing: 0.5px;
@@ -913,6 +913,7 @@ p.tracks-des {
 
 /******* faq *******/
 .faq-container {
+    padding-top: 50px;
   text-align: center;
   background-color: #0A0618;
 }
