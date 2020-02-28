@@ -69,7 +69,7 @@
       <nav>
         <ul>
           <li data-id="landing" class="selected"><a href="#landing">About</a></li>
-          <li data-id="schedule" ><a data-id="schedule" href="#schedule">Schedule</a></li>
+          <li data-id="recap" ><a data-id="recap" href="#recap">Recap</a></li>
           <li data-id="faq" ><a data-id="faq" href="#faq">FAQ</a></li>
           <li data-id="sponsors" ><a data-id="sponsors" href="#sponsors">Sponsors</a></li>
         </ul>
@@ -77,7 +77,7 @@
     </header>
     <div class="page-header backdrop"></div>
 
-    <section class="landing-container justify-content-center" id="landing">
+    <section class="landing-container justify-content-center">
         <div id="particles-js"></div>
         <div id="particles-js2"></div>
         <div class='landing-illustration'>
@@ -111,16 +111,19 @@
             January 18-19, 2020<br>
             ARC Pavilion at UC Davis
           </span>
+          
+          <span class="join-us">
+            Join our HackDavis 2021 team and become an organizer!
+          </span>
           <div class="buttons">
-            <button onclick="window.open('https://hackdavis.typeform.com/to/yPZuyc')">Apply to be an Organizer!</button>
-            <button onclick="window.open('https://hackdavis2020.devpost.com')">View Winners</button>
+            <button onclick="window.open('https://hackdavis.typeform.com/to/yPZuyc')">Apply Now</button>
           </div>
           <!--<div class='apps-open-soon'>Thanks for coming out to HackDavis!<br>Keep an eye out for news about HackDavis 2021!</div>-->
         </div>
       </div>
     </section>
 
-    <section class="faq-container">
+    <section class="faq-container"  id="landing">
         <div class="container">
           <div class="faq-content" data-entrance="fade">
             <div class="team-faq" data-entrance="fade">
@@ -197,11 +200,16 @@
               </div>
             </div>
           </div>
+          
+          <div class="faq-content center" data-entrance="fade">
+              <div class='team-photo'>
+                  <img src="assets/img/teamphoto.jpg">
+              </div>
+          </div>
         </div>
       </section>
   
-  
-    <section class="stats-container">
+    <section class="stats-container" id = 'recap'>
       <div class='stats-illustration'>
           <div class='img-container'>
               <img onload="fadeIn(this)" class="tower" src='./assets/img/stats/tower.svg'></img>
@@ -215,6 +223,7 @@
         <h2 class="stats" data-entrance="fade">24 hours.</h2>
         <h2 class="stats" data-entrance="fade">100+ projects.</h2>
         <h2 class="stats" data-entrance="fade">$25,000+ prizes.</h2>
+        <button class='winners-btn' onclick="window.open('https://hackdavis2020.devpost.com')">View Winners</button>
       </div>
     </section>
 
@@ -292,202 +301,6 @@
     </section>-->
 
             
-    <p class="section-title" data-entrance="fade" id = 'schedule'>
-        <span class="underline schedule">Schedule</span>
-    </p>
-
-
-    <section class="schedule-container">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="day" data-entrance="fade">
-              <!--<div class="day-title">
-                Saturday
-              </div>-->
-
-              <div class="event">
-                <div class="time">
-                  
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    <b>SATURDAY</b>
-                  </div>
-                </div>
-              </div>
-              <br>
-
-              <div class="event">
-                <div class="time">
-                  9
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Check in begins
-                  </div>
-                </div>
-              </div>
-
-   
-              <div class="event">
-                <div class="time">
-                  11
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Check in closes
-                  </div>
-                </div>
-              </div>
-              <div class="event">
-                <div class="time">
-                  &nbsp
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Lunch
-                  </div>
-                </div>
-              </div>
- <!--              <div class="time-box">
-                <p>pm</p>
-              </div> -->
-              <div class="event">
-                <div class="time">
-                  12
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Opening ceremony
-                  </div>
-                </div>
-              </div>
-              <div class="event">
-                <div class="time">
-                  1
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Hacking begins
-                  </div> 
-                </div>
-              </div>
-
-              <div class="event">
-                <div class="time">
-                  6:30
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Dinner
-                  </div>
-                </div>
-              </div>
-
-              <div class="event">
-                <div class="time">
-                  9:30
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Boba & cookies
-                  </div>
-                </div>
-              </div>           
-
-            </div>
-          </div>
-
-
-
-          <div class="col-md-6">
-            <div class="day" data-entrance="fade" data-entrance-delay="100">
-              <!--<div class="day-title">
-                Sunday
-              </div>-->
-
-              <div class="event">
-                <div class="time">
-                  
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    <b>SUNDAY</b>
-                  </div>
-                </div>
-              </div>
-              <br>
-
-
-              <div class="event">
-                <div class="time">
-                  12
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Midnight snack
-                  </div>
-                </div>
-              </div>   
-
-              <div class="event">
-                <div class="time">
-                  8:30
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Breakfast
-                  </div>
-                </div>
-              </div>
-              <div class="event">
-                <div class="time">
-                  1
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Hacking ends
-                  </div>
-                </div>
-              </div>
-              <div class="event">
-                <div class="time">
-                  &nbsp
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Lunch
-                  </div>
-                </div>
-              </div>
-              <div class="event">
-                <div class="time">
-                  2
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Demos and judging
-                  </div>
-                </div>
-              </div>
-              <div class="event">
-                <div class="time">
-                  4
-                </div>
-                <div class="details">
-                  <div class="event-title">
-                    Closing ceremony
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> 
-
     <p class="section-title" data-entrance="fade" id='faq'>
         <span class="underline faq">FAQ</span>
     </p>
