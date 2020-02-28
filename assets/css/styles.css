@@ -94,7 +94,7 @@ src: url("../fonts/Graphik-600-Semibold.otf");
     font-weight: normal;
     src: url("../fonts/AvenirNextLTPro-Regular.otf");
 }
-  
+
 @font-face {
     font-family: "Avenir Next";
     font-weight: 500;
@@ -545,12 +545,20 @@ line-height: 29px;
 }
 
 .landing-container .when-where {
-  font-family: 'Avenir Next';
-  font-size: 0.9rem;
-  line-height: 27px;
-  margin: 2em 0 2em 0;
-}
+    font-family: 'Avenir Next';
+    font-size: 0.9rem;
+    line-height: 27px;
+    margin: 2em 0 2em 0;
+  }
 
+  .landing-container .join-us {
+    font-family: 'Avenir Next';
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1.5em 0 1em 0;
+    max-width: 20rem;
+  }
+    
 .buttons {
     margin-top: 1rem;
   display: flex;
@@ -559,7 +567,8 @@ line-height: 29px;
 }
 button {
   position: relative;
-  margin-right: 1em; 
+  width: fit-content;
+  margin-right: 1.5em; 
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-size: 0.9rem;
@@ -573,11 +582,27 @@ button {
   );*/
 }
 
+button.winners-btn
+{
+    margin-top: 30px;
+}
+
 button:hover {
     opacity: 1;
   border-radius: 3.05em;
     background: white;
     color: #050436;
+    transform: scale(1.1);
+}
+
+div.team-faq
+{
+    margin-top: 60px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-size: 3rem;
+    color: white;
 }
 
 /******* stats *******/
@@ -727,6 +752,8 @@ p.about-text {
   text-align: left;
   margin-top: 1.5rem;
   line-height: 1.5;
+  font-size: 1rem;
+  color: white;
 }
 
 img.social-good {
@@ -959,8 +986,9 @@ p.tracks-des {
 }
 
 .accordion .content p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
+  color: white;
   margin-bottom: 0;
 }
 
@@ -1502,4 +1530,19 @@ button.centered
 div.col-sm-8
 {
     display: inline-block;
+}
+
+div.team-photo
+{
+    margin-top: 80px;
+    height: fit-content;
+    width: fit-content;
+}
+
+div.team-photo img
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
