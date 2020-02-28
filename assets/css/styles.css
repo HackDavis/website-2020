@@ -559,7 +559,7 @@ line-height: 29px;
 }
 button {
   position: relative;
-  margin-right: 1em; 
+  margin-right: 1.5em; 
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-size: 0.9rem;
@@ -578,6 +578,17 @@ button:hover {
   border-radius: 3.05em;
     background: white;
     color: #050436;
+    transform: scale(1.1);
+}
+
+div.team-faq
+{
+    margin-top: 60px;
+    text-align: left;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    font-size: 3rem;
+    color: white;
 }
 
 /******* stats *******/
@@ -727,6 +738,8 @@ p.about-text {
   text-align: left;
   margin-top: 1.5rem;
   line-height: 1.5;
+  font-size: 1rem;
+  color: white;
 }
 
 img.social-good {
@@ -959,8 +972,9 @@ p.tracks-des {
 }
 
 .accordion .content p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
+  color: white;
   margin-bottom: 0;
 }
 
