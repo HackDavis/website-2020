@@ -291,7 +291,14 @@ p {
   width: 100%;
   padding: 0 3vw 0 3vw;
   align-items: center;
+  margin: 0;
   z-index: 100;
+  border: none;
+}
+
+code
+{
+    background-color: transparent;
 }
 
 .page-header .logo img {
@@ -1537,7 +1544,7 @@ div.team-photo
 {
     margin-top: 80px;
     height: fit-content;
-    width: fit-content;
+    width: 100%;
 }
 
 div.team-photo img
