@@ -30,16 +30,6 @@ $(document).ready(function()
         }
     }, 200);
 
-    /**
-     * Can be:
-     * 
-     * http://localhost:8080
-     * or
-     * http://ac.benankiel.com
-     * 
-     */
-
-
     SOCKET.on('connect', function()
     {
         console.log('Connected!');
