@@ -1,6 +1,6 @@
 $(document).ready(function() 
 {
-    const URL = "https://server1.hackdavis.io:8080"; 
+    const URL = "https://ac.hackdavis.io:8080"; 
     const SOCKET = io.connect(URL, {secure: true});
     let isActive = true; // If this window is currently active
     let target_pos = {x: 0, y: 0};
