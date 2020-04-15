@@ -1,7 +1,7 @@
 $(document).ready(function() 
 {
-    const URL = "https://cors-anywhere.herokuapp.com/https://ac.hackdavis.io:2053"; 
-    const SOCKET = io.connect(URL, {secure: false});
+    const URL = "https://ac.hackdavis.io:2053"; 
+    const SOCKET = io.connect(URL, {secure: true});
     let isActive = true; // If this window is currently active
     let target_pos = {x: 0, y: 0};
     let last_sync_pos = {x: 0, y: 0};
