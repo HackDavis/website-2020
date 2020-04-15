@@ -1,7 +1,7 @@
 $(document).ready(function() 
 {
-    const URL = "http://ac.hackdavis.io:8080"; 
-    const SOCKET = io.connect(URL, {secure: true});
+    const URL = "https://ac.hackdavis.io:8080"; 
+    const SOCKET = io.connect(URL, {secure: false});
     let isActive = true; // If this window is currently active
     let target_pos = {x: 0, y: 0};
     let last_sync_pos = {x: 0, y: 0};
